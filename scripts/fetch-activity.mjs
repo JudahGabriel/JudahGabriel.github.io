@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-// Refreshes _data/github_activity.json from the GitHub public events API.
-// On any failure the existing file is left untouched so the last good feed stays live.
+// Refreshes _data/activity.json from GitHub public events and the blog RSS feeds.
+// Each source is fetched independently; a failing source keeps its last good items.
+// If every source fails, the existing file is left untouched.
 import { readFile, writeFile, rename } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -9,8 +10,27 @@ const USER = "judahgabriel";
 const MAX_PAGES = 3;
 const PER_PAGE = 100;
 const MAX_ITEMS = 30;
+const MAX_POSTS_PER_BLOG = 5;
+const MAX_FEED_BYTES = 5 * 1024 * 1024;
 const TIMEOUT_MS = 15000;
-const OUT_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "_data", "github_activity.json");
+const OUT_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "_data", "activity.json");
+
+const BLOGS = [
+  {
+    id: "kineti",
+    name: "Kineti L'Tziyon",
+    home: "https://blog.judahgabriel.com/",
+    feed: "https://blog.judahgabriel.com/feeds/posts/default?alt=rss&redirect=false&max-results=10",
+    host: "blog.judahgabriel.com",
+  },
+  {
+    id: "debuggerdotbreak",
+    name: "DebuggerDotBreak",
+    home: "https://debuggerdotbreak.judahgabriel.com/",
+    feed: "https://debuggerdotbreak.judahgabriel.com/feed/",
+    host: "debuggerdotbreak.judahgabriel.com",
+  },
+];
 
 const REPO_RE = /^[A-Za-z0-9_.-]{1,100}\/[A-Za-z0-9_.-]{1,100}$/;
 const SHA_RE = /^[0-9a-f]{40}$/;
@@ -22,16 +42,18 @@ function cleanText(value, max = 200) {
   return text.length > max ? `${text.slice(0, max - 1)}…` : text;
 }
 
-function githubUrl(value) {
+function httpsUrlOnHost(value, host) {
   if (typeof value !== "string") return null;
   try {
-    const url = new URL(value);
-    if (url.protocol !== "https:" || url.hostname !== "github.com" || url.username || url.password) return null;
+    const url = new URL(value.trim());
+    if (url.protocol !== "https:" || url.hostname !== host || url.username || url.password) return null;
     return url.toString();
   } catch {
     return null;
   }
 }
+
+const githubUrl = (value) => httpsUrlOnHost(value, "github.com");
 
 function plural(n, word) {
   return `${n} ${word}${n === 1 ? "" : "s"}`;
@@ -46,7 +68,7 @@ function toItem(event) {
 
   const repoUrl = `https://github.com/${repo}`;
   const p = event.payload ?? {};
-  const base = { id: String(event.id), repo, repo_url: repoUrl, created_at: createdAt.toISOString() };
+  const base = { id: `github-${event.id}`, source: "github", context: repo, context_url: repoUrl, created_at: createdAt.toISOString() };
 
   switch (event.type) {
     case "PushEvent": {
@@ -126,7 +148,7 @@ async function fetchPage(page) {
   return data;
 }
 
-async function main() {
+async function fetchGitHub() {
   const items = [];
   const seen = new Set();
   for (let page = 1; page <= MAX_PAGES && items.length < MAX_ITEMS; page++) {
@@ -141,19 +163,105 @@ async function main() {
     }
     if (events.length < PER_PAGE) break;
   }
+  return items;
+}
 
+const NAMED_ENTITIES = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+
+function decodeEntities(text) {
+  return text.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (match, code) => {
+    if (code[0] === "#") {
+      const n = code[1].toLowerCase() === "x" ? parseInt(code.slice(2), 16) : parseInt(code.slice(1), 10);
+      return Number.isInteger(n) && n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : "";
+    }
+    return NAMED_ENTITIES[code.toLowerCase()] ?? match;
+  });
+}
+
+function xmlField(xml, tag) {
+  const match = xml.match(new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)</${tag}>`, "i"));
+  if (!match) return null;
+  const cdata = match[1].match(/^\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*$/);
+  const raw = cdata ? cdata[1] : decodeEntities(match[1]);
+  return decodeEntities(raw.replace(/<[^>]*>/g, ""));
+}
+
+async function fetchBlog(blog) {
+  const res = await fetch(blog.feed, {
+    headers: { Accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.5", "User-Agent": `${USER}-github-io-activity-feed` },
+    redirect: "error",
+    signal: AbortSignal.timeout(TIMEOUT_MS),
+  });
+  if (!res.ok) throw new Error(`${blog.name} feed returned ${res.status} ${res.statusText}`);
+  const declared = Number(res.headers.get("content-length"));
+  if (declared > MAX_FEED_BYTES) throw new Error(`${blog.name} feed is too large`);
+  const xml = await res.text();
+  if (xml.length > MAX_FEED_BYTES) throw new Error(`${blog.name} feed is too large`);
+  if (!/<rss[\s>]/i.test(xml)) throw new Error(`${blog.name} feed is not RSS`);
+
+  const items = [];
+  for (const [, body] of xml.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/gi)) {
+    const title = cleanText(xmlField(body, "title"));
+    const url = httpsUrlOnHost(xmlField(body, "link"), blog.host);
+    const date = new Date(xmlField(body, "pubDate") ?? "");
+    if (!title || !url || Number.isNaN(date.getTime())) continue;
+    items.push({
+      id: `${blog.id}-${url}`,
+      source: blog.id,
+      kind: "blog",
+      label: "Blog post",
+      action: "New post on",
+      context: blog.name,
+      context_url: blog.home,
+      title,
+      url,
+      created_at: date.toISOString(),
+    });
+  }
+  if (items.length === 0) throw new Error(`${blog.name} feed had no usable posts`);
+  items.sort((a, b) => b.created_at.localeCompare(a.created_at));
+  return items.slice(0, MAX_POSTS_PER_BLOG);
+}
+
+async function main() {
   let previous = null;
   try {
     previous = JSON.parse(await readFile(OUT_FILE, "utf8"));
   } catch {
     // No previous feed yet.
   }
-  if (previous?.generated_at && JSON.stringify(previous.items) === JSON.stringify(items)) {
+  const previousItems = Array.isArray(previous?.items) ? previous.items : [];
+
+  const sources = [
+    { id: "github", load: fetchGitHub },
+    ...BLOGS.map((blog) => ({ id: blog.id, load: () => fetchBlog(blog) })),
+  ];
+  const results = await Promise.allSettled(sources.map((s) => s.load()));
+
+  const items = [];
+  let failures = 0;
+  results.forEach((result, i) => {
+    const { id } = sources[i];
+    if (result.status === "fulfilled") {
+      console.log(`${id}: ${result.value.length} items`);
+      items.push(...result.value);
+    } else {
+      failures++;
+      const kept = previousItems.filter((item) => item.source === id);
+      console.log(`::warning::${id} refresh failed; keeping ${kept.length} previous items. ${result.reason?.message ?? result.reason}`);
+      items.push(...kept);
+    }
+  });
+  if (failures === sources.length) throw new Error("all sources failed");
+
+  items.sort((a, b) => b.created_at.localeCompare(a.created_at));
+
+  if (previous?.generated_at && JSON.stringify(previousItems) === JSON.stringify(items)) {
     console.log(`No new activity (${items.length} items); leaving feed unchanged.`);
     return;
   }
 
-  const feed = { generated_at: new Date().toISOString(), source: `https://api.github.com/users/${USER}/events/public`, items };
+  const feed = { generated_at: new Date().toISOString(), items };
   const tmp = `${OUT_FILE}.tmp`;
   await writeFile(tmp, `${JSON.stringify(feed, null, 2)}\n`, "utf8");
   await rename(tmp, OUT_FILE);

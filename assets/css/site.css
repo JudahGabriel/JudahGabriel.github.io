@@ -6,6 +6,7 @@
   --border: #e2e3e0;
   --accent: #0b5cad;
   --accent-soft: #e6eef8;
+  --blog-soft: #f6e8d4;
   --radius: 12px;
   --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
@@ -19,6 +20,7 @@
     --border: #2d3138;
     --accent: #7ab4ff;
     --accent-soft: #1d2a3b;
+    --blog-soft: #3a2c1a;
   }
 }
 
@@ -155,6 +157,7 @@ main:focus:not(:focus-visible) { outline: none; }
   color: var(--text);
   margin-top: 0.15rem;
 }
+.badge-blog { background: var(--blog-soft); }
 
 .activity-body { min-width: 0; }
 .activity-body p { margin: 0; overflow-wrap: anywhere; }

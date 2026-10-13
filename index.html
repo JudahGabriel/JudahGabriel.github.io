@@ -3,12 +3,14 @@ layout: default
 title: Home
 description: Judah Gabriel Himango — principal software engineer. Recent public activity on GitHub.
 ---
-{%- assign feed = site.data.github_activity -%}
+{%- assign feed = site.data.activity -%}
 <section class="feed" aria-labelledby="feed-heading">
   <header class="feed-header">
     <h1 id="feed-heading">Recent activity</h1>
     <p class="feed-meta">
-      Public activity from <a href="https://github.com/judahgabriel">GitHub</a>.
+      My public activity on <a href="https://github.com/judahgabriel">GitHub</a>
+      and my blogs, <a href="https://blog.judahgabriel.com/">Kineti L'Tziyon</a>
+      and <a href="https://debuggerdotbreak.judahgabriel.com/">DebuggerDotBreak</a>.
       {%- if feed.generated_at %}
       Last updated <time datetime="{{ feed.generated_at | escape }}">{{ feed.generated_at | date: "%B %-d, %Y at %H:%M UTC" }}</time>.
       {%- endif %}
@@ -23,12 +25,12 @@ description: Judah Gabriel Himango — principal software engineer. Recent publi
       <div class="activity-body">
         <p class="activity-text">
           {{ item.action | escape }}
-          <a href="{{ item.repo_url | escape }}">{{ item.repo | escape }}</a>
+          <a href="{{ item.context_url | escape }}">{{ item.context | escape }}</a>
         </p>
         {%- if item.title %}
         <p class="activity-title">{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</p>
         {%- endif %}
-        <p class="activity-time"><a href="{{ item.url | default: item.repo_url | escape }}"><time datetime="{{ item.created_at | escape }}">{{ item.created_at | date: "%b %-d, %Y" }}</time></a></p>
+        <p class="activity-time"><a href="{{ item.url | default: item.context_url | escape }}"><time datetime="{{ item.created_at | escape }}">{{ item.created_at | date: "%b %-d, %Y" }}</time></a></p>
       </div>
     </li>
     {%- endfor %}
