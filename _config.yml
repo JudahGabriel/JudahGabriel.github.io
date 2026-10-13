@@ -1,0 +1,8 @@
+title: Judah Gabriel Himango
+description: Principal software engineer building web apps, developer tools, and cloud services.
+url: https://judahgabriel.github.io
+markdown: kramdown
+timezone: Etc/UTC
+exclude:
+  - scripts
+  - README.md

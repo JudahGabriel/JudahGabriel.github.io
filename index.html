@@ -1,0 +1,42 @@
+---
+layout: default
+title: Home
+description: Judah Gabriel Himango — principal software engineer. Recent public activity on GitHub.
+---
+{%- assign feed = site.data.github_activity -%}
+<section class="feed" aria-labelledby="feed-heading">
+  <header class="feed-header">
+    <h1 id="feed-heading">Recent activity</h1>
+    <p class="feed-meta">
+      Public activity from <a href="https://github.com/judahgabriel">GitHub</a>.
+      {%- if feed.generated_at %}
+      Last updated <time datetime="{{ feed.generated_at | escape }}">{{ feed.generated_at | date: "%B %-d, %Y at %H:%M UTC" }}</time>.
+      {%- endif %}
+    </p>
+  </header>
+
+  {%- if feed.items and feed.items.size > 0 %}
+  <ol class="activity">
+    {%- for item in feed.items %}
+    <li class="activity-item">
+      <span class="badge badge-{{ item.kind | slugify }}">{{ item.label | escape }}</span>
+      <div class="activity-body">
+        <p class="activity-text">
+          {{ item.action | escape }}
+          <a href="{{ item.repo_url | escape }}">{{ item.repo | escape }}</a>
+        </p>
+        {%- if item.title %}
+        <p class="activity-title">{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</p>
+        {%- endif %}
+        <p class="activity-time"><a href="{{ item.url | default: item.repo_url | escape }}"><time datetime="{{ item.created_at | escape }}">{{ item.created_at | date: "%b %-d, %Y" }}</time></a></p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- else %}
+  <div class="empty">
+    <p>No recent public activity to show yet.</p>
+    <p>See everything on <a href="https://github.com/judahgabriel">my GitHub profile</a>.</p>
+  </div>
+  {%- endif %}
+</section>

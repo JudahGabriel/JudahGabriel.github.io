@@ -1,3 +1,9 @@
+---
+layout: page
+title: Resume
+description: Resume of Judah Gabriel Himango, principal software engineer.
+---
+
 # Judah Gabriel Himango
 
 **Principal Software Engineer**

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <link rel="icon" href="https://github.com/judahgabriel.png?size=64">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="About Judah Gabriel Himango">
+      <a class="avatar-link" href="{{ '/' | relative_url }}">
+        <img class="avatar" src="https://github.com/judahgabriel.png?size=320" width="160" height="160" alt="Photo of Judah Gabriel Himango">
+      </a>
+      <p class="name"><a href="{{ '/' | relative_url }}">Judah Gabriel Himango</a></p>
+      <p class="role">Principal Software Engineer at Microsoft</p>
+      <p class="bio">20+ years building web apps, native apps, developer tools, and cloud services. Creator of <a href="https://apps.microsoft.com">apps.microsoft.com</a>, the place on the web to find apps for Windows, and builder of <a href="https://www.pwabuilder.com">PWABuilder.com</a>.      </p>
+            <nav aria-label="Profile links">
+        <ul class="links">
+          <li><a href="{{ '/resume' | relative_url }}"{% if page.url == '/resume' or page.url == '/resume.html' %} aria-current="page"{% endif %}>Resume</a></li>
+          <li><a href="https://MessianicRadio.com">MessianicRadio.com</a></li>
+          <li><a href="https://MessianicChords.com">MessianicChords.com</a></li>
+          <li><a href="https://github.com/judahgabriel">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/judah-gabriel-himango-b7424444">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main id="main" class="content" tabindex="-1">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
