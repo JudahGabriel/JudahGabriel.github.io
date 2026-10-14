@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-13T22:25:36.514Z",
+  "generated_at": "2026-10-14T04:56:05.250Z",
   "items": [
+    {
+      "id": "github-23918138649",
+      "source": "github",
+      "context": "JudahGabriel/JudahGabriel.github.io",
+      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
+      "created_at": "2026-10-13T22:28:01.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/personal-landing-page in",
+      "title": null,
+      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/f694e0fed57c...9da3af8a2b23"
+    },
     {
       "id": "github-23917950406",
       "source": "github",
@@ -360,18 +372,6 @@
       "action": "Pushed commits to dependabot/npm_and_yarn/apps/pwabuilder/node-scripts/multi-bdd9b0df5c in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/compare/51e40b164cd6...6d4a66bc50e0"
-    },
-    {
-      "id": "github-23405394719",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-07T18:28:07.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to dependabot/npm_and_yarn/components/pwa-inking/shell-quote-1.12.0 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/d3aa35f76130...493597f72fd6"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-benjamin-netanyahu-and.html",
