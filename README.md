@@ -1,7 +1,7 @@
 # Personal site
 
 GitHub Pages builds the root of `main` with Jekyll. The activity workflow runs every
-six hours and can also be run manually from Actions. It collects public GitHub
+twelve hours and can also be run manually from Actions. It collects public GitHub
 activity, RSS blog posts, and optionally X posts and reposts. No visitor-side API calls.
 
 ## Optional paid X feed
@@ -32,8 +32,8 @@ It does not paginate: if more than 10 events arrive between runs, older unseen
 events may be skipped. Expansions retrieve original repost text without a second
 request; repost links open the original post on X.
 
-At the published Owned Read rate of **$0.001 per returned post**, 4 runs/day with
-10 timeline posts/run is about **$1.20 per 30-day month** before any additional
+At the published Owned Read rate of **$0.001 per returned post**, 2 runs/day with
+10 timeline posts/run is about **$0.60 per 30-day month** before any additional
 expanded-post or other charges. With incremental reads and less activity, it
 should be lower. At the current standard $0.005/post rate, ten additional
 expanded reposts per run could add about $3/month (about $3.60 total).
