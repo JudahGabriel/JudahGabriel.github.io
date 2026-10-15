@@ -1,6 +1,31 @@
 {
-  "generated_at": "2026-10-15T19:19:47.462Z",
+  "generated_at": "2026-10-15T19:33:20.301Z",
+  "x_since_id": "2110807847324000430",
   "items": [
+    {
+      "id": "x-2110807847324000430",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Cavemen Issues Dire Warning That The Wheel Is Going To Eliminate Countless Jobs https://t.co/17TIKATQIo",
+      "url": "https://x.com/i/web/status/2110422884984517119",
+      "created_at": "2026-10-15T18:59:42.000Z"
+    },
+    {
+      "id": "x-2110802293738410255",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "🎥 WATCH: The interview that went absolutely viral online. On Al Arabiya English, one of the Arab world’s biggest English-language platforms, @danfefferman was asked why the IDF continues operating in Gaza. Then came the twist: “Answer the question without mentioning Hamas.” How exactly do you explain the war in Gaza while being told you can’t mention Hamas? Watch his response — and yes, the raised eyebrows say plenty.",
+      "url": "https://x.com/i/web/status/2110315559841616097",
+      "created_at": "2026-10-15T18:37:38.000Z"
+    },
     {
       "id": "github-17326554161",
       "source": "github",
@@ -62,6 +87,54 @@
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6457#pullrequestreview-5534736121"
     },
     {
+      "id": "x-2110567034727915833",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "https://t.co/cIgIZAWQ0b",
+      "url": "https://x.com/i/web/status/2110358953955676617",
+      "created_at": "2026-10-15T03:02:48.000Z"
+    },
+    {
+      "id": "x-2110524723235102803",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Computer scientist Sara Hooker on underestimating difficulty: https://t.co/c3gEHrEuI2",
+      "url": "https://x.com/i/web/status/2110066649932197948",
+      "created_at": "2026-10-15T00:14:40.000Z"
+    },
+    {
+      "id": "x-2110521241501413500",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Husk tried AI therapy and now I need a real doctor bc I can’t breathe 😭 https://t.co/89EK4LlfBP",
+      "url": "https://x.com/i/web/status/2110171978795749641",
+      "created_at": "2026-10-15T00:00:50.000Z"
+    },
+    {
+      "id": "x-2110509319246827531",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "With new technology, researchers can now read a lost codex of Paul’s letters. Spoiler: Their discoveries could revolutionize how we read the New Testament. #codexh https://t.co/zm6sutPt0l",
+      "url": "https://x.com/i/web/status/2110408263330062555",
+      "created_at": "2026-10-14T23:13:27.000Z"
+    },
+    {
       "id": "github-17208683503",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -120,6 +193,42 @@
       "action": "Reviewed pull request #6456 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6456#pullrequestreview-5518345258"
+    },
+    {
+      "id": "x-2110210456753496246",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Today we're standing up XBOX LABS (https://t.co/dJSufI1vni). Here is the note that I sent to the team: Team, The first video games emerged some 75 years ago. In the time since, there have been booms and busts, but every year there are more great games to play, more devices to play them, and best of all, more people than ever playing. That growth helped make XBOX what it is today, and we've helped shape the industry in return, from bringing hard drives to consoles and online gaming through Xbox Live to Game Pass and cloud gaming, alongside franchises that have brought millions of people together. In recent weeks, we've seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support. Windows PC builds have been translated to run on Apple Silicon or ported to run inside a browser through WebAssembly and WebGPU, the latter now approaching 90% global browser support. Perhaps more surprisingly, we've seen many of the biggest games in the world have",
+      "url": "https://x.com/i/web/status/2110083127741702241",
+      "created_at": "2026-10-14T03:25:53.000Z"
+    },
+    {
+      "id": "x-2110196356887531947",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Let's debunk this once and for all: No, the Yeshu of the Talmud is not who you think he is. A thread. https://t.co/NrUsnyGhFm",
+      "url": "https://x.com/i/web/status/1946003989922713975",
+      "created_at": "2026-10-14T02:29:51.000Z"
+    },
+    {
+      "id": "x-2110195476628926884",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier. We referred the matter to the FBI, and we’re grateful to the agents and prosecutors who moved quickly to make an arrest. The FBI’s investigation is ongoing and we will continue to support their work. At this time, we have no indications of this individual inappropriately accessing or exfiltrating model weights, source code, or customer data. The employee was terminated. We take protecting our technology, data, and people seriously, and as a matter of national importance. Our security program is designed to protect against a wide range of threat actors, from insider risks to cybercriminals to nation states, and this case is an example of how AI can help address these sophisticated security threats.",
+      "url": "https://x.com/i/web/status/2110095403198849132",
+      "created_at": "2026-10-14T02:26:21.000Z"
     },
     {
       "id": "github-23918138649",
@@ -240,6 +349,18 @@
       "title": "Some Thoughts on Man's Best Friend by Aaron Hecht",
       "url": "https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
       "created_at": "2026-10-13T11:28:56.000Z"
+    },
+    {
+      "id": "x-2109848237222121782",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "introducing FindMyWifePhone™️ my latest shortcut squarely placed on the pareto frontier. there is no easier & cheaper way to find your wife's phone. \"honey, do you know where my phone is?\" the fuck I dont! \"can you call me?!\" she keeps her phone on silent. so i made this shortcut to help. trigger = i send her a text with !ping in it action = hey phone sets a timer for 1s timer always works, we like to keep our phones on silent + dnd and we dont use apple watches. so finding each other's phones used to be a challenge. we both have this set up in reverse, and its worked well. bonus shortcut = button in home screen widget to send !ping to my wife (we also have one called !awaken which disables silent, sets volume to max & disables do not disturb in case of emergency)",
+      "url": "https://x.com/i/web/status/2109798818124353659",
+      "created_at": "2026-10-13T03:26:33.000Z"
     },
     {
       "id": "github-17039522587",
