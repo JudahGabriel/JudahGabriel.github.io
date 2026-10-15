@@ -163,6 +163,14 @@ main:focus:not(:focus-visible) { outline: none; }
 .activity-body p { margin: 0; overflow-wrap: anywhere; }
 .activity-title { margin-top: 0.15rem !important; color: var(--muted); }
 .activity-time { margin-top: 0.25rem !important; font-size: 0.85rem; }
+.source-x .activity-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
 .activity-time a { color: var(--muted); }
 
 @media (max-width: 30rem) {

@@ -22,7 +22,7 @@ description: Judah Gabriel Himango — principal software engineer. Recent publi
   {%- if feed.items and feed.items.size > 0 %}
   <ol class="activity">
     {%- for item in feed.items %}
-    <li class="activity-item">
+    <li class="activity-item source-{{ item.source | slugify }}">
       <span class="badge badge-{{ item.kind | slugify }}">{{ item.label | escape }}</span>
       <div class="activity-body">
         <p class="activity-text">
