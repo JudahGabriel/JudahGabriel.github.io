@@ -36,7 +36,7 @@ At the published Owned Read rate of **$0.001 per returned post**, 4 runs/day wit
 10 timeline posts/run is about **$1.20 per 30-day month** before any additional
 expanded-post or other charges. With incremental reads and less activity, it
 should be lower. At the current standard $0.005/post rate, ten additional
-expanded reposts per run could add about $6/month (about $7.20 total).
+expanded reposts per run could add about $3/month (about $3.60 total).
 This is an estimate, **not a spending cap**: X pricing,
 deduplication, expanded repost billing, and app eligibility can affect the bill.
 Configure spending controls/credits in the X developer console.
