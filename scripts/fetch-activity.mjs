@@ -233,13 +233,16 @@ async function main() {
   }
   const previousItems = Array.isArray(previous?.items) ? previous.items : [];
   let xSinceId = previous?.x_since_id ?? null;
+  const xBackfillRestoreId = /^\d{1,25}$/.test(previous?.x_backfill_restore_id ?? "")
+    ? previous.x_backfill_restore_id
+    : null;
 
   const sources = [
     { id: "github", load: fetchGitHub },
     ...BLOGS.map((blog) => ({ id: blog.id, load: () => fetchBlog(blog) })),
     { id: "x", load: async () => {
       const result = await fetchXActivity(previousItems.filter((item) => item.source === "x"), xSinceId);
-      xSinceId = result.sinceId;
+      xSinceId = result.sinceId ?? xBackfillRestoreId;
       if (result.skipped) console.log("X refresh skipped: configure the four X secrets and X_USER_ID to enable it.");
       return result.items;
     } },
@@ -256,6 +259,7 @@ async function main() {
     } else {
       failures++;
       const kept = previousItems.filter((item) => item.source === id);
+      if (id === "x") xSinceId = xBackfillRestoreId ?? xSinceId;
       console.log(`::warning::${id} refresh failed; keeping ${kept.length} previous items. ${result.reason?.message ?? result.reason}`);
       items.push(...kept);
     }

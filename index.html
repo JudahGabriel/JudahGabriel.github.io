@@ -32,6 +32,24 @@ description: Judah Gabriel Himango — principal software engineer. Recent publi
         {%- if item.title %}
         <p class="activity-title">{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</p>
         {%- endif %}
+        {%- if item.source == "x" and item.media and item.media.size > 0 %}
+        <div class="x-media-gallery" aria-label="Media attached to X post">
+          {%- for media in item.media limit: 4 %}
+          <a class="x-media-frame{% if media.video %} x-media-video{% endif %}"
+             href="{{ item.url | escape }}"
+             aria-label="Open original X post: {{ media.alt_text | default: 'View attached media' | escape }}"
+             style="aspect-ratio: {{ media.width | escape }} / {{ media.height | escape }};">
+            <img src="{{ media.url | escape }}"
+                 alt="{{ media.alt_text | escape }}"
+                 width="{{ media.width | escape }}"
+                 height="{{ media.height | escape }}"
+                 loading="lazy"
+                 decoding="async">
+            {%- if media.video %}<span class="x-media-play" aria-hidden="true">▶</span>{% endif %}
+          </a>
+          {%- endfor %}
+        </div>
+        {%- endif %}
         <p class="activity-time"><a href="{{ item.url | default: item.context_url | escape }}"><time datetime="{{ item.created_at | escape }}">{{ item.created_at | date: "%b %-d, %Y" }}</time></a></p>
       </div>
     </li>

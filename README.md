@@ -33,13 +33,14 @@ events may be skipped. Expansions retrieve original repost text without a second
 request; repost links open the original post on X.
 
 At the published Owned Read rate of **$0.001 per returned post**, 2 runs/day with
-10 timeline posts/run is about **$0.60 per 30-day month** before any additional
-expanded-post or other charges. With incremental reads and less activity, it
-should be lower. At the current standard $0.005/post rate, ten additional
-expanded reposts per run could add about $3/month (about $3.60 total).
-This is an estimate, **not a spending cap**: X pricing,
-deduplication, expanded repost billing, and app eligibility can affect the bill.
-Configure spending controls/credits in the X developer console.
+10 timeline posts/run is about **$0.60 per 30-day month** before other charges.
+With incremental reads and less activity, it should be lower. X also lists
+“Media Metadata: Read” at **$0.005 per resource**, but its documentation does not
+clarify whether media objects returned through these timeline expansions incur
+that separate charge. Monitor the X developer console after refreshes. This is
+an estimate, **not a spending cap**; pricing, deduplication, and app eligibility
+can affect the bill. Configure spending controls/credits in the X developer
+console.
 See [X pricing](https://docs.x.com/x-api/getting-started/pricing).
 
 Run regression tests with `node --test scripts/*.test.mjs`.

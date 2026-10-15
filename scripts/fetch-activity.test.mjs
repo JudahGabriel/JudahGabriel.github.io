@@ -10,7 +10,7 @@ import { execFile } from "node:child_process";
 const exec = promisify(execFile);
 const scripts = path.dirname(fileURLToPath(import.meta.url));
 for (const configured of [false, true]) {
-  test(`GitHub and blogs still refresh when X ${configured ? "returns 402" : "is not configured"}`, async () => {
+  test(`GitHub and blogs still refresh when X ${configured ? "backfill returns 402" : "is not configured"}`, async () => {
     const root = await mkdtemp(path.join(tmpdir(), "activity-test-"));
     try {
       await mkdir(path.join(root, "scripts"));
@@ -24,7 +24,10 @@ for (const configured of [false, true]) {
         url: "https://x.com/judahgabriel/status/100",
       };
       await writeFile(path.join(root, "_data", "activity.json"), JSON.stringify({
-        generated_at: "2026-10-01T00:00:00Z", x_since_id: "100", items: [old],
+        generated_at: "2026-10-01T00:00:00Z",
+        x_since_id: configured ? null : "100",
+        ...(configured ? { x_backfill_restore_id: "100" } : {}),
+        items: [old],
       }));
       await writeFile(path.join(root, "network.mjs"), `
         globalThis.fetch = async input => {
@@ -53,6 +56,7 @@ for (const configured of [false, true]) {
       const feed = JSON.parse(await readFile(path.join(root, "_data", "activity.json"), "utf8"));
       assert.deepEqual(feed.items.find((item) => item.source === "x"), old);
       assert.equal(feed.x_since_id, "100");
+      assert.equal(feed.x_backfill_restore_id, undefined);
       assert.ok(feed.items.some((item) => item.source === "github"));
       assert.ok(feed.items.some((item) => item.source === "kineti"));
       assert.ok(feed.items.some((item) => item.source === "debuggerdotbreak"));

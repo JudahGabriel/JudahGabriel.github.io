@@ -93,3 +93,72 @@ test("X item URLs never come from API-provided URLs or text", async () => {
   }));
   assert.equal(result.items[0].url, "https://x.com/judahgabriel/status/999");
 });
+
+test("timeline request expands media for posts and their referenced originals", async () => {
+  let requestUrl;
+  const result = await fetchXActivity([], null, env, async (url) => {
+    requestUrl = url;
+    return response({
+      data: [
+        {
+          id: "300", text: "RT", created_at: "2026-10-05T00:00:00Z",
+          referenced_tweets: [{ type: "retweeted", id: "88" }],
+        },
+        {
+          id: "299", text: "Photos", created_at: "2026-10-04T00:00:00Z",
+          attachments: { media_keys: ["photo-1", "video-1", "gif-1", "photo-2", "photo-5"] },
+        },
+      ],
+      includes: {
+        tweets: [{ id: "88", text: "Original", attachments: { media_keys: ["repost-photo"] } }],
+        media: [
+          { media_key: "repost-photo", type: "photo", url: "https://pbs.twimg.com/media/original.jpg", alt_text: "original <photo>", width: 800, height: 600 },
+          { media_key: "photo-1", type: "photo", url: "https://pbs.twimg.com/media/photo.jpg", alt_text: "A photo & text", width: 1200, height: 800 },
+          { media_key: "video-1", type: "video", url: "https://pbs.twimg.com/media/video.mp4", preview_image_url: "https://pbs.twimg.com/ext_tw_video_thumb/video.jpg", alt_text: "A video", width: 1920, height: 1080 },
+          { media_key: "gif-1", type: "animated_gif", preview_image_url: "https://pbs.twimg.com/tweet_video_thumb/gif.jpg", alt_text: "A GIF", width: 600, height: 600 },
+          { media_key: "photo-2", type: "photo", url: "https://pbs.twimg.com/media/photo-2.jpg", width: 400, height: 600 },
+          { media_key: "photo-5", type: "photo", url: "https://pbs.twimg.com/media/photo-5.jpg", width: 400, height: 600 },
+        ],
+      },
+      meta: { newest_id: "300" },
+    });
+  });
+
+  assert.equal(requestUrl.searchParams.get("expansions"), "attachments.media_keys,referenced_tweets.id");
+  assert.equal(requestUrl.searchParams.get("tweet.fields").split(",").includes("attachments"), true);
+  assert.equal(requestUrl.searchParams.get("media.fields"), "media_key,type,url,preview_image_url,alt_text,width,height");
+  const [repost, post] = result.items;
+  assert.deepEqual(repost.media[0], {
+    type: "photo", url: "https://pbs.twimg.com/media/original.jpg",
+    alt_text: "original <photo>", width: 800, height: 600, video: false,
+  });
+  assert.equal(post.media.length, 4);
+  assert.deepEqual(post.media.map((media) => media.type), ["photo", "video", "animated_gif", "photo"]);
+  assert.equal(post.media[0].alt_text, "A photo & text");
+  assert.equal(post.media[0].width, 1200);
+  assert.equal(post.media[1].url, "https://pbs.twimg.com/ext_tw_video_thumb/video.jpg");
+  assert.equal(post.media[1].video, true);
+  assert.equal(post.media[2].url, "https://pbs.twimg.com/tweet_video_thumb/gif.jpg");
+  assert.equal(post.media[2].video, true);
+  assert.equal(post.media[3].alt_text, "");
+});
+
+test("untrusted, incomplete, and unsupported media are discarded", async () => {
+  const result = await fetchXActivity([], null, env, async () => response({
+    data: [{
+      id: "301", text: "Attachments", created_at: "2026-10-05T00:00:00Z",
+      attachments: { media_keys: ["bad-host", "http", "missing", "unsupported", "bad-size", "good"] },
+    }],
+    includes: { media: [
+      { media_key: "bad-host", type: "photo", url: "https://pbs.twimg.com.evil.example/x.jpg", width: 10, height: 10 },
+      { media_key: "http", type: "photo", url: "http://pbs.twimg.com/x.jpg", width: 10, height: 10 },
+      { media_key: "missing", type: "video", preview_image_url: "https://evil.example/x.jpg", width: 10, height: 10 },
+      { media_key: "unsupported", type: "audio", url: "https://pbs.twimg.com/x.jpg", width: 10, height: 10 },
+      { media_key: "bad-size", type: "photo", url: "https://pbs.twimg.com/x.jpg", width: -10, height: 0 },
+      { media_key: "good", type: "photo", url: "https://pbs.twimg.com/good.jpg", width: 10, height: 10 },
+    ] },
+  }));
+  assert.equal(result.items[0].media.length, 1);
+  assert.equal(result.items[0].media[0].url, "https://pbs.twimg.com/good.jpg");
+  assert.equal(result.items[0].media[0].width, 10);
+});

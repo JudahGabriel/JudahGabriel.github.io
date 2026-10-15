@@ -4,6 +4,17 @@ const ID = /^[1-9]\d{0,24}$/;
 const MAX_ITEMS = 30;
 const encode = (value) => encodeURIComponent(value).replace(/[!'()*]/g, (c) => `%${c.charCodeAt(0).toString(16).toUpperCase()}`);
 
+function mediaImageUrl(value) {
+  if (typeof value !== "string") return null;
+  try {
+    const url = new URL(value);
+    if (url.protocol !== "https:" || url.hostname !== "pbs.twimg.com" || url.username || url.password) return null;
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
 export function oauthHeader(url, env, nonce = randomBytes(16).toString("hex"), timestamp = String(Math.floor(Date.now() / 1000))) {
   const oauth = {
     oauth_consumer_key: env.X_API_KEY,
@@ -46,6 +57,36 @@ function postItem(post, expanded) {
   };
 }
 
+function postMedia(post, original, mediaByKey) {
+  const mediaPost = original ?? post;
+  const keys = Array.isArray(mediaPost.attachments?.media_keys)
+    ? mediaPost.attachments.media_keys
+    : Array.isArray(post.attachments?.media_keys) ? post.attachments.media_keys : [];
+  const media = [];
+  for (const key of keys) {
+    const source = mediaByKey.get(key);
+    if (!source || !["photo", "video", "animated_gif"].includes(source.type)) continue;
+    const imageUrl = source.type === "photo" ? source.url : source.preview_image_url;
+    const url = mediaImageUrl(imageUrl);
+    const { width, height } = source;
+    if (!url || !Number.isInteger(width) || !Number.isInteger(height) ||
+        width < 1 || width > 10000 || height < 1 || height > 10000) continue;
+    const altText = typeof source.alt_text === "string"
+      ? source.alt_text.replace(/[\u0000-\u001f\u007f]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 500)
+      : "";
+    media.push({
+      type: source.type,
+      url,
+      alt_text: altText,
+      width,
+      height,
+      video: source.type !== "photo",
+    });
+    if (media.length === 4) break;
+  }
+  return media;
+}
+
 export async function fetchXActivity(previous, sinceId, env = process.env, request = fetch) {
   const required = ["X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET", "X_USER_ID"];
   if (required.some((key) => !env[key]?.trim())) return { items: previous, sinceId, skipped: true };
@@ -56,8 +97,9 @@ export async function fetchXActivity(previous, sinceId, env = process.env, reque
   url.search = new URLSearchParams({
     max_results: "10",
     exclude: "replies",
-    "tweet.fields": "created_at,referenced_tweets,note_tweet",
-    expansions: "referenced_tweets.id",
+    "tweet.fields": "created_at,referenced_tweets,note_tweet,attachments",
+    expansions: "attachments.media_keys,referenced_tweets.id",
+    "media.fields": "media_key,type,url,preview_image_url,alt_text,width,height",
   }).toString();
   if (sinceId) url.searchParams.set("since_id", sinceId);
 
@@ -82,7 +124,17 @@ export async function fetchXActivity(previous, sinceId, env = process.env, reque
     throw new Error("Incomplete X API response; keeping previous X activity.");
   }
   const posts = body.data ?? [];
-  const items = posts.map((post) => postItem(post, body.includes?.tweets ?? []));
+  const includedTweets = body.includes?.tweets ?? [];
+  const includedMedia = body.includes?.media ?? [];
+  if (!Array.isArray(includedTweets) || !Array.isArray(includedMedia)) {
+    throw new Error("Invalid X API includes; keeping previous X activity.");
+  }
+  const mediaByKey = new Map(includedMedia.map((media) => [media.media_key, media]));
+  const items = posts.map((post) => {
+    const repost = post.referenced_tweets?.find((ref) => ref.type === "retweeted");
+    const original = repost ? includedTweets.find((tweet) => tweet.id === repost.id) : null;
+    return { ...postItem(post, includedTweets), media: postMedia(post, original, mediaByKey) };
+  });
   // Use event IDs (including the repost event), never the original reposted post's ID.
   const ids = [...posts.map((post) => post.id), ...(sinceId ? [sinceId] : [])];
   const newest = ids.reduce((max, id) => !max || BigInt(id) > BigInt(max) ? id : max, null);
