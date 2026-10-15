@@ -5,6 +5,7 @@
 import { readFile, writeFile, rename } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { fetchXActivity } from "./x-activity.mjs";
 
 const USER = "judahgabriel";
 const MAX_PAGES = 3;
@@ -231,10 +232,17 @@ async function main() {
     // No previous feed yet.
   }
   const previousItems = Array.isArray(previous?.items) ? previous.items : [];
+  let xSinceId = previous?.x_since_id ?? null;
 
   const sources = [
     { id: "github", load: fetchGitHub },
     ...BLOGS.map((blog) => ({ id: blog.id, load: () => fetchBlog(blog) })),
+    { id: "x", load: async () => {
+      const result = await fetchXActivity(previousItems.filter((item) => item.source === "x"), xSinceId);
+      xSinceId = result.sinceId;
+      if (result.skipped) console.log("X refresh skipped: configure the four X secrets and X_USER_ID to enable it.");
+      return result.items;
+    } },
   ];
   const results = await Promise.allSettled(sources.map((s) => s.load()));
 
@@ -256,12 +264,12 @@ async function main() {
 
   items.sort((a, b) => b.created_at.localeCompare(a.created_at));
 
-  if (previous?.generated_at && JSON.stringify(previousItems) === JSON.stringify(items)) {
+  if (previous?.generated_at && JSON.stringify(previousItems) === JSON.stringify(items) && (previous.x_since_id ?? null) === xSinceId) {
     console.log(`No new activity (${items.length} items); leaving feed unchanged.`);
     return;
   }
 
-  const feed = { generated_at: new Date().toISOString(), items };
+  const feed = { generated_at: new Date().toISOString(), ...(xSinceId ? { x_since_id: xSinceId } : {}), items };
   const tmp = `${OUT_FILE}.tmp`;
   await writeFile(tmp, `${JSON.stringify(feed, null, 2)}\n`, "utf8");
   await rename(tmp, OUT_FILE);

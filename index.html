@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: Judah Gabriel Himango — principal software engineer. Recent public activity on GitHub.
+description: Judah Gabriel Himango — principal software engineer. Recent public activity and blog posts.
 ---
 {%- assign feed = site.data.activity -%}
 <section class="feed" aria-labelledby="feed-heading">
@@ -11,6 +11,8 @@ description: Judah Gabriel Himango — principal software engineer. Recent publi
       My public activity on <a href="https://github.com/judahgabriel">GitHub</a>
       and my blogs, <a href="https://blog.judahgabriel.com/">Kineti L'Tziyon</a>
       and <a href="https://debuggerdotbreak.judahgabriel.com/">DebuggerDotBreak</a>.
+      {%- assign x_items = feed.items | where: "source", "x" -%}
+      {% if x_items.size > 0 %} Also on <a href="https://x.com/judahgabriel">X</a>.{% endif %}
       {%- if feed.generated_at %}
       Last updated <time datetime="{{ feed.generated_at | escape }}">{{ feed.generated_at | date: "%B %-d, %Y at %H:%M UTC" }}</time>.
       {%- endif %}
