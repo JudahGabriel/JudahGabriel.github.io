@@ -100,7 +100,7 @@ main:focus:not(:focus-visible) { outline: none; }
   font-weight: 700;
   line-height: 1.25;
 }
-.name a { color: inherit; text-decoration: none; }
+.name a { display: inline-flex; align-items: center; max-width: 100%; min-height: 44px; color: inherit; text-decoration: none; }
 .name a:hover { text-decoration: underline; }
 
 .role { margin: 0.25rem 0 0; color: var(--muted); font-weight: 500; }
@@ -114,7 +114,7 @@ main:focus:not(:focus-visible) { outline: none; }
   display: grid;
   gap: 0.35rem;
 }
-.links a { font-weight: 500; }
+.links a { display: flex; min-height: 44px; align-items: center; font-weight: 500; }
 .links a[aria-current="page"] { color: var(--text); text-decoration: none; }
 
 .content { min-width: 0; }
