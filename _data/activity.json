@@ -1,7 +1,101 @@
 {
-  "generated_at": "2026-10-15T20:28:55.194Z",
-  "x_since_id": "2110807847324000430",
+  "generated_at": "2026-10-16T04:39:00.215Z",
+  "x_since_id": "2110903609978413470",
   "items": [
+    {
+      "id": "x-2110903609978413470",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Complete Tesla Roadster FLYING demo. INSANE!!! https://t.co/Q6KQaXRX5g",
+      "url": "https://x.com/i/web/status/2110901384421966220",
+      "created_at": "2026-10-16T01:20:13.000Z",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2110901181916803072/img/unwtSgiA8eb1RXbn.jpg",
+          "alt_text": "",
+          "width": 1398,
+          "height": 782,
+          "video": true
+        }
+      ]
+    },
+    {
+      "id": "x-2110895419811381549",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "‘Goodbye’ is an alteration of “God be with you.”",
+      "url": "https://x.com/i/web/status/2110787848936829388",
+      "created_at": "2026-10-16T00:47:41.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2110888752822497514",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "https://t.co/QvEPXxgsG5",
+      "url": "https://x.com/i/web/status/2110883739672723510",
+      "created_at": "2026-10-16T00:21:11.000Z",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUtdjKQX0AA79q0.jpg",
+          "alt_text": "",
+          "width": 1408,
+          "height": 1331,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": "github-17349475211",
+      "source": "github",
+      "context": "JudahGabriel/MessianicChords",
+      "context_url": "https://github.com/JudahGabriel/MessianicChords",
+      "created_at": "2026-10-15T23:08:17.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Merged pull request #69 in",
+      "title": null,
+      "url": "https://github.com/JudahGabriel/MessianicChords/pull/69"
+    },
+    {
+      "id": "github-17346480753",
+      "source": "github",
+      "context": "JudahGabriel/MessianicChords",
+      "context_url": "https://github.com/JudahGabriel/MessianicChords",
+      "created_at": "2026-10-15T22:40:38.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Opened pull request #69 in",
+      "title": null,
+      "url": "https://github.com/JudahGabriel/MessianicChords/pull/69"
+    },
+    {
+      "id": "x-2110838066655141973",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "The proper response to goodbye is obviously, \"And with thy spirit.\" https://t.co/xw1LnfxneI",
+      "url": "https://x.com/i/web/status/2110814260083462425",
+      "created_at": "2026-10-15T20:59:47.000Z",
+      "media": []
+    },
     {
       "id": "x-2110807847324000430",
       "source": "x",
@@ -469,30 +563,6 @@
       "action": "Commented on issue #6451 in",
       "title": "Error creating Google Play package",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6451#issuecomment-6128603968"
-    },
-    {
-      "id": "github-17026368199",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-12T16:45:16.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6451 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6451"
-    },
-    {
-      "id": "github-17026219061",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-12T16:43:18.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6452 in",
-      "title": "oloko",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6452"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-benjamin-netanyahu-and.html",
