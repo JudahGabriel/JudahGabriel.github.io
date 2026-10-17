@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-10-16T16:44:26.605Z",
-  "x_since_id": "2111019357904175348",
+  "generated_at": "2026-10-17T04:35:59.013Z",
+  "x_since_id": "2111234172056641690",
   "items": [
+    {
+      "id": "x-2111234172056641690",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "I think nothing will beat the people who went from horse drawn carriages and no electricity to landing on the moon in their life time, but things are accelerating fast. https://t.co/zJ80dykRN5",
+      "url": "https://x.com/i/web/status/2111095322240012429",
+      "created_at": "2026-10-16T23:13:46.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2111223363221999693",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Of course the flying Tesla Roadster is a gimmick but that sort of misses the point, the tech flex behind it isn't. Tesla's bulk business is about advanced technology from EV to self drive, but decided to create the most ridiculous manual drive supercar. Supercars are a gimmick,almost by definition, based on how wild can you make them. The gimmick that can make the car literally fly, briefly, can make it corner like no other supercar and accelerate, literally like a dragster on a test track. It's got nothing to do with flying continuously, but having a car that will outperform every Lambo, Ferrari or McLaren with technology that they cannot replicate because it requires experience from space launches and computation that they don't have now nor will in future. So Porsche, Bugatti, Aston Martin just became legacy prestige brands, like Rolex, Richard Mille or Patek Philippe. These cars celebrate the bygone age and the baroque, physical complexity of the internal combustion engine just as ",
+      "url": "https://x.com/i/web/status/2111150902442668206",
+      "created_at": "2026-10-16T22:30:49.000Z",
+      "media": []
+    },
+    {
+      "id": "github-17436177763",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-16T21:39:10.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Opened pull request #6464 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6464"
+    },
     {
       "id": "github-17396047120",
       "source": "github",
@@ -156,6 +194,18 @@
       "media": []
     },
     {
+      "id": "github-24262753944",
+      "source": "github",
+      "context": "JudahGabriel/JudahGabriel.github.io",
+      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
+      "created_at": "2026-10-15T20:44:21.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/40272cb75c55...a9d7ca0becbe"
+    },
+    {
       "id": "github-24188620831",
       "source": "github",
       "context": "JudahGabriel/JudahGabriel.github.io",
@@ -166,6 +216,18 @@
       "action": "Pushed commits to main in",
       "title": null,
       "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/497b7b0c548f...02074d029562"
+    },
+    {
+      "id": "github-24253466082",
+      "source": "github",
+      "context": "JudahGabriel/JudahGabriel.github.io",
+      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
+      "created_at": "2026-10-15T19:37:29.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/b9d490688118...1543bab2c324"
     },
     {
       "id": "github-24176875275",
@@ -262,6 +324,18 @@
       "action": "Opened pull request #68 in",
       "title": null,
       "url": "https://github.com/JudahGabriel/MessianicChords/pull/68"
+    },
+    {
+      "id": "github-24243847579",
+      "source": "github",
+      "context": "JudahGabriel/MessianicChords",
+      "context_url": "https://github.com/JudahGabriel/MessianicChords",
+      "created_at": "2026-10-15T18:33:29.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/chord-tempo-and-timing in",
+      "title": null,
+      "url": "https://github.com/JudahGabriel/MessianicChords/compare/77cfeb108ff3...99ce303ca984"
     },
     {
       "id": "github-24162956856",
@@ -528,42 +602,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/compare/d13cb2f65f11...930d5ce7f5a1"
     },
     {
-      "id": "github-17121837531",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-13T16:55:07.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6454 in",
-      "title": "https://tangerine-kelpie-f2b36f.netlify.app",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6454"
-    },
-    {
-      "id": "github-17144596412",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-13T16:55:06.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6454 in",
-      "title": "https://tangerine-kelpie-f2b36f.netlify.app",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6454#issuecomment-6150714019"
-    },
-    {
-      "id": "github-17110943603",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-13T14:53:45.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6453 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6453#pullrequestreview-5504798519"
-    },
-    {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
       "source": "kineti",
       "kind": "blog",
@@ -586,18 +624,6 @@
       "title": "introducing FindMyWifePhone™️ my latest shortcut squarely placed on the pareto frontier. there is no easier & cheaper way to find your wife's phone. \"honey, do you know where my phone is?\" the fuck I dont! \"can you call me?!\" she keeps her phone on silent. so i made this shortcut to help. trigger = i send her a text with !ping in it action = hey phone sets a timer for 1s timer always works, we like to keep our phones on silent + dnd and we dont use apple watches. so finding each other's phones used to be a challenge. we both have this set up in reverse, and its worked well. bonus shortcut = button in home screen widget to send !ping to my wife (we also have one called !awaken which disables silent, sets volume to max & disables do not disturb in case of emergency)",
       "url": "https://x.com/i/web/status/2109798818124353659",
       "created_at": "2026-10-13T03:26:33.000Z"
-    },
-    {
-      "id": "github-17043933333",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-12T16:46:45.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6448 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6448#issuecomment-6128625884"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-benjamin-netanyahu-and.html",
