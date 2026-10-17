@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-17T04:35:59.013Z",
-  "x_since_id": "2111234172056641690",
+  "generated_at": "2026-10-17T15:41:02.225Z",
+  "x_since_id": "2111473691234283763",
   "items": [
+    {
+      "id": "x-2111473691234283763",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "\"Das Pferd wird es immer geben, aber das Automobil ist nur eine Modeerscheinung – ein Spielzeug für Reiche.\" Michigan Savings Bank, 1903 \"Ich denke, es gibt weltweit einen Markt für vielleicht fünf Computer.\" Thomas Watson, 1943 \"No chance that the iPhone is going to get any significant market share.\" Steve Ballmer, 2007 \"Das Internet hat für die Wirtschaft kaum wichtigere Auswirkungen als das Faxgerät.\" Paul Krugman, 1998 \"Flugmaschinen, die schwerer sind als Luft, sind physikalisch unmöglich.\" Lord Kelvin, 1895 \"Das Spam-Problem bei E-Mails wird in spätestens zwei Jahren gelöst sein\" Bill Gates, 2004 \"Der Fernseher wird sich auf dem Markt nicht halten. Die Menschen werden es bald leid sein, jeden Abend auf eine Sperrholzkiste zu starren.\" Darryl F. Zanuck, 1946 \"Es gibt keinen Grund, warum jemand einen Computer in seinem Haus haben wollte.\" Ken Olson, 1977 \"Wenn die Pariser Weltausstellung schließt, wird das elektrische Licht ausgehen und man wird nie wieder davon hören.\" Erasmus Wil",
+      "url": "https://x.com/i/web/status/2111388506308124900",
+      "created_at": "2026-10-17T15:05:31.000Z",
+      "media": []
+    },
     {
       "id": "x-2111234172056641690",
       "source": "x",
@@ -216,6 +229,18 @@
       "action": "Pushed commits to main in",
       "title": null,
       "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/497b7b0c548f...02074d029562"
+    },
+    {
+      "id": "github-24283771337",
+      "source": "github",
+      "context": "JudahGabriel/JudahGabriel.github.io",
+      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
+      "created_at": "2026-10-15T19:41:10.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/1543bab2c324...497b7b0c548f"
     },
     {
       "id": "github-24253466082",
@@ -552,18 +577,6 @@
       "action": "Pushed commits to main in",
       "title": null,
       "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/0e39a9e9bd43...9da3af8a2b23"
-    },
-    {
-      "id": "github-23917950406",
-      "source": "github",
-      "context": "JudahGabriel/JudahGabriel.github.io",
-      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
-      "created_at": "2026-10-13T22:25:08.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to user/judahgabriel/personal-landing-page in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/f332874cf08a...f694e0fed57c"
     },
     {
       "id": "github-24097686510",
