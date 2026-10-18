@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-10-18T04:41:22.751Z",
-  "x_since_id": "2111473691234283763",
+  "generated_at": "2026-10-18T15:56:04.021Z",
+  "x_since_id": "2111838330749165713",
   "items": [
+    {
+      "id": "x-2111838330749165713",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "French journalist Paul Amar: “They came prepared. They had the addresses of town halls. They had addresses of Jewish shop owners. In a street in Marseille, all businesses owned by Jews were set on fire. Businesses run by Muslims weren’t” https://t.co/zudahbmw7p",
+      "url": "https://x.com/i/web/status/2111787520900112759",
+      "created_at": "2026-10-18T15:14:28.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2111720720648835136",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "In all seriousness someone should get the art out of the louvre",
+      "url": "https://x.com/i/web/status/2111572749411885353",
+      "created_at": "2026-10-18T07:27:08.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2111702258983551381",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "There should be a logical fallacy called Appeal To Fire. Like when you burn things down you’ve lost the argument.",
+      "url": "https://x.com/i/web/status/2111567513012089249",
+      "created_at": "2026-10-18T06:13:46.000Z",
+      "media": []
+    },
     {
       "id": "x-2111473691234283763",
       "source": "x",
