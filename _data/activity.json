@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:41:02.225Z",
+  "generated_at": "2026-10-18T04:41:22.751Z",
   "x_since_id": "2111473691234283763",
   "items": [
     {
@@ -40,6 +40,18 @@
       "url": "https://x.com/i/web/status/2111150902442668206",
       "created_at": "2026-10-16T22:30:49.000Z",
       "media": []
+    },
+    {
+      "id": "github-24365999749",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-16T21:47:09.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/pr-deployment-slots in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/930d5ce7f5a1...38274109c129"
     },
     {
       "id": "github-17436177763",
@@ -553,18 +565,6 @@
       "title": "We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier. We referred the matter to the FBI, and we’re grateful to the agents and prosecutors who moved quickly to make an arrest. The FBI’s investigation is ongoing and we will continue to support their work. At this time, we have no indications of this individual inappropriately accessing or exfiltrating model weights, source code, or customer data. The employee was terminated. We take protecting our technology, data, and people seriously, and as a matter of national importance. Our security program is designed to protect against a wide range of threat actors, from insider risks to cybercriminals to nation states, and this case is an example of how AI can help address these sophisticated security threats.",
       "url": "https://x.com/i/web/status/2110095403198849132",
       "created_at": "2026-10-14T02:26:21.000Z"
-    },
-    {
-      "id": "github-23918138649",
-      "source": "github",
-      "context": "JudahGabriel/JudahGabriel.github.io",
-      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
-      "created_at": "2026-10-13T22:28:01.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to user/judahgabriel/personal-landing-page in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/f694e0fed57c...9da3af8a2b23"
     },
     {
       "id": "github-24059597612",
