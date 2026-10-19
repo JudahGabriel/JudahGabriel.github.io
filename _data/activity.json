@@ -1,7 +1,242 @@
 {
-  "generated_at": "2026-10-18T15:56:04.021Z",
-  "x_since_id": "2111838330749165713",
+  "generated_at": "2026-10-19T18:44:56.749Z",
+  "x_since_id": "2112236463945580623",
   "items": [
+    {
+      "id": "github-17633642750",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:44:27.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6478 in",
+      "title": "KINGS QUAD",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6478"
+    },
+    {
+      "id": "github-17633638791",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:44:24.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6477 in",
+      "title": "KINGS QUAD",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6477"
+    },
+    {
+      "id": "github-17633276074",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:41:01.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6474 in",
+      "title": "[VSCODE]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6474"
+    },
+    {
+      "id": "github-17633249304",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:40:46.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6473 in",
+      "title": "[RELEASE][PWABUILDER|VSCODE|STARTER|ETC] X.X",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6473"
+    },
+    {
+      "id": "github-17633235182",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:40:38.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6472 in",
+      "title": "[VSCODE]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6472"
+    },
+    {
+      "id": "github-17633222923",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:40:31.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6471 in",
+      "title": "4lph410",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6471"
+    },
+    {
+      "id": "github-17633076766",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:39:12.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6470 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6470"
+    },
+    {
+      "id": "github-17632810559",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:36:27.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6467 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6467"
+    },
+    {
+      "id": "github-17632737333",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:35:42.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6465 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6465"
+    },
+    {
+      "id": "github-17632698248",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:35:15.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6466 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6466"
+    },
+    {
+      "id": "github-17632476436",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:32:52.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6462 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6462"
+    },
+    {
+      "id": "github-17632369950",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:31:39.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6461 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6461"
+    },
+    {
+      "id": "github-17631403752",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:20:40.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Opened pull request #6483 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6483"
+    },
+    {
+      "id": "github-17631356741",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:20:10.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6379 in",
+      "title": "[BUG] minSdkVersion equires SDK 24 or later",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6379"
+    },
+    {
+      "id": "github-17631269927",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T18:19:09.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6459 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6459"
+    },
+    {
+      "id": "x-2112236463945580623",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Post",
+      "action": "Posted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Seems there's a real market for TVs that are not bloated. I have a nice TV that is slow as molasses; navigating menus makes you question \"did I press the wrong button on my remote, or is the TV just really slow?\" I'm gonna use this to debloat my TV. https://t.co/0v3ilQEdx5",
+      "url": "https://x.com/judahgabriel/status/2112236463945580623",
+      "created_at": "2026-10-19T17:36:31.000Z",
+      "media": []
+    },
+    {
+      "id": "github-17626950911",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T17:32:32.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Merged pull request #6440 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6440"
+    },
+    {
+      "id": "x-2112214633918738685",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Posted just hours apart. https://t.co/gsW66GQpBX",
+      "url": "https://x.com/i/web/status/2111960915608269053",
+      "created_at": "2026-10-19T16:09:46.000Z",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HU8xQnEWMAAfwZM.jpg",
+          "alt_text": "",
+          "width": 1206,
+          "height": 1440,
+          "video": false
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HU8xQnWWYAEmmQk.jpg",
+          "alt_text": "",
+          "width": 986,
+          "height": 1018,
+          "video": false
+        }
+      ]
+    },
     {
       "id": "x-2111838330749165713",
       "source": "x",
@@ -221,30 +456,6 @@
       "url": "https://github.com/JudahGabriel/MessianicChords/compare/571729b8a29d...6e70566d2248"
     },
     {
-      "id": "github-17349475211",
-      "source": "github",
-      "context": "JudahGabriel/MessianicChords",
-      "context_url": "https://github.com/JudahGabriel/MessianicChords",
-      "created_at": "2026-10-15T23:08:17.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Merged pull request #69 in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/MessianicChords/pull/69"
-    },
-    {
-      "id": "github-17346480753",
-      "source": "github",
-      "context": "JudahGabriel/MessianicChords",
-      "context_url": "https://github.com/JudahGabriel/MessianicChords",
-      "created_at": "2026-10-15T22:40:38.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #69 in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/MessianicChords/pull/69"
-    },
-    {
       "id": "x-2110838066655141973",
       "source": "x",
       "kind": "x",
@@ -366,18 +577,6 @@
       "url": "https://github.com/JudahGabriel/MessianicChords/compare/dc23aa7df7f4...571729b8a29d"
     },
     {
-      "id": "github-17326554161",
-      "source": "github",
-      "context": "JudahGabriel/MessianicChords",
-      "context_url": "https://github.com/JudahGabriel/MessianicChords",
-      "created_at": "2026-10-15T18:36:44.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Merged pull request #68 in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/MessianicChords/pull/68"
-    },
-    {
       "id": "github-24202268582",
       "source": "github",
       "context": "JudahGabriel/MessianicChords",
@@ -388,18 +587,6 @@
       "action": "Pushed commits to master in",
       "title": null,
       "url": "https://github.com/JudahGabriel/MessianicChords/compare/1429e26a2756...dc23aa7df7f4"
-    },
-    {
-      "id": "github-17326277000",
-      "source": "github",
-      "context": "JudahGabriel/MessianicChords",
-      "context_url": "https://github.com/JudahGabriel/MessianicChords",
-      "created_at": "2026-10-15T18:33:36.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #68 in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/MessianicChords/pull/68"
     },
     {
       "id": "github-24243847579",
@@ -424,42 +611,6 @@
       "action": "Pushed commits to master in",
       "title": null,
       "url": "https://github.com/JudahGabriel/MessianicChords/compare/7b61e77c8c15...1429e26a2756"
-    },
-    {
-      "id": "github-17322169058",
-      "source": "github",
-      "context": "JudahGabriel/MessianicChords",
-      "context_url": "https://github.com/JudahGabriel/MessianicChords",
-      "created_at": "2026-10-15T17:47:02.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Merged pull request #67 in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/MessianicChords/pull/67"
-    },
-    {
-      "id": "github-17322074644",
-      "source": "github",
-      "context": "JudahGabriel/MessianicChords",
-      "context_url": "https://github.com/JudahGabriel/MessianicChords",
-      "created_at": "2026-10-15T17:46:01.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #67 in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/MessianicChords/pull/67"
-    },
-    {
-      "id": "github-17303819199",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-15T14:26:20.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6457 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6457#pullrequestreview-5534736121"
     },
     {
       "id": "x-2110567034727915833",
@@ -510,66 +661,6 @@
       "created_at": "2026-10-14T23:13:27.000Z"
     },
     {
-      "id": "github-17208683503",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-14T14:24:38.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6439 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6439#pullrequestreview-5518347145"
-    },
-    {
-      "id": "github-17201037150",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-14T13:05:28.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6445 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6445#pullrequestreview-5518346715"
-    },
-    {
-      "id": "github-17201034844",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-14T13:05:27.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6446 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6446#pullrequestreview-5518346209"
-    },
-    {
-      "id": "github-17201029033",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-14T13:05:23.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6455 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6455#pullrequestreview-5518345595"
-    },
-    {
-      "id": "github-17201027356",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-14T13:05:22.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6456 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6456#pullrequestreview-5518345258"
-    },
-    {
       "id": "x-2110210456753496246",
       "source": "x",
       "kind": "x",
@@ -604,54 +695,6 @@
       "title": "We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier. We referred the matter to the FBI, and we’re grateful to the agents and prosecutors who moved quickly to make an arrest. The FBI’s investigation is ongoing and we will continue to support their work. At this time, we have no indications of this individual inappropriately accessing or exfiltrating model weights, source code, or customer data. The employee was terminated. We take protecting our technology, data, and people seriously, and as a matter of national importance. Our security program is designed to protect against a wide range of threat actors, from insider risks to cybercriminals to nation states, and this case is an example of how AI can help address these sophisticated security threats.",
       "url": "https://x.com/i/web/status/2110095403198849132",
       "created_at": "2026-10-14T02:26:21.000Z"
-    },
-    {
-      "id": "github-24059597612",
-      "source": "github",
-      "context": "JudahGabriel/JudahGabriel.github.io",
-      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
-      "created_at": "2026-10-13T22:27:59.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to main in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/0e39a9e9bd43...9da3af8a2b23"
-    },
-    {
-      "id": "github-24097686510",
-      "source": "github",
-      "context": "JudahGabriel/JudahGabriel.github.io",
-      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
-      "created_at": "2026-10-13T22:25:07.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to main in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/f332874cf08a...f694e0fed57c"
-    },
-    {
-      "id": "github-24058879144",
-      "source": "github",
-      "context": "JudahGabriel/JudahGabriel.github.io",
-      "context_url": "https://github.com/JudahGabriel/JudahGabriel.github.io",
-      "created_at": "2026-10-13T22:15:56.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to main in",
-      "title": null,
-      "url": "https://github.com/JudahGabriel/JudahGabriel.github.io/compare/25a789d02e04...f332874cf08a"
-    },
-    {
-      "id": "github-24036471483",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-13T17:46:42.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to user/judahgabriel/pr-deployment-slots in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/d13cb2f65f11...930d5ce7f5a1"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
