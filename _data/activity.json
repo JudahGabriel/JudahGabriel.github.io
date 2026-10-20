@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-10-20T04:58:00.450Z",
-  "x_since_id": "2112307822361018730",
+  "generated_at": "2026-10-20T17:15:33.826Z",
+  "x_since_id": "2112567916331978832",
   "items": [
+    {
+      "id": "x-2112567916331978832",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Post",
+      "action": "Posted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Spotted a Tesla Cybercab and a Google Waymo here in Seattle. I'm guessing we'll see driverless cabs roll out to the public here soon. 😎 https://t.co/MZmrasLP3L",
+      "url": "https://x.com/judahgabriel/status/2112567916331978832",
+      "created_at": "2026-10-20T15:33:35.000Z",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVFZOaBbcAAD5JQ.jpg",
+          "alt_text": "",
+          "width": 1536,
+          "height": 2048,
+          "video": false
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVFZOaHaUAA_vvJ.jpg",
+          "alt_text": "",
+          "width": 2048,
+          "height": 1536,
+          "video": false
+        },
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2112567804264435712/img/lpeuFxczskbJClfd.jpg",
+          "alt_text": "",
+          "width": 1080,
+          "height": 1920,
+          "video": true
+        }
+      ]
+    },
+    {
+      "id": "x-2112557561962713221",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Introducing tsrs: a Rust port of the TypeScript compiler 🦀 We are not forking TypeScript! ◆ In close collaborating with the TypeScript team ◆ Up to 8x faster than TS 7.0 & ~70% less memory ◆ Runs in WASM, so it works in your browser & on Workers ◆ Soon part of the Oxc toolchain npx tsrs https://t.co/qmmxF3YnQy",
+      "url": "https://x.com/i/web/status/2112531443591020965",
+      "created_at": "2026-10-20T14:52:26.000Z",
+      "media": []
+    },
     {
       "id": "github-17673279366",
       "source": "github",
@@ -25,6 +76,18 @@
       "action": "Opened pull request #6486 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6486"
+    },
+    {
+      "id": "github-24632064349",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-19T23:00:37.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/nimbus-homepage-demo in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/9c3032a6d152...2235068fed83"
     },
     {
       "id": "github-17654856673",
@@ -327,18 +390,6 @@
       "action": "Closed issue #6473 in",
       "title": "[RELEASE][PWABUILDER|VSCODE|STARTER|ETC] X.X",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6473"
-    },
-    {
-      "id": "github-17633235182",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:40:38.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6472 in",
-      "title": "[VSCODE]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6472"
     },
     {
       "id": "github-17643900858",
@@ -769,30 +820,6 @@
       "title": "With new technology, researchers can now read a lost codex of Paul’s letters. Spoiler: Their discoveries could revolutionize how we read the New Testament. #codexh https://t.co/zm6sutPt0l",
       "url": "https://x.com/i/web/status/2110408263330062555",
       "created_at": "2026-10-14T23:13:27.000Z"
-    },
-    {
-      "id": "x-2110210456753496246",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Today we're standing up XBOX LABS (https://t.co/dJSufI1vni). Here is the note that I sent to the team: Team, The first video games emerged some 75 years ago. In the time since, there have been booms and busts, but every year there are more great games to play, more devices to play them, and best of all, more people than ever playing. That growth helped make XBOX what it is today, and we've helped shape the industry in return, from bringing hard drives to consoles and online gaming through Xbox Live to Game Pass and cloud gaming, alongside franchises that have brought millions of people together. In recent weeks, we've seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support. Windows PC builds have been translated to run on Apple Silicon or ported to run inside a browser through WebAssembly and WebGPU, the latter now approaching 90% global browser support. Perhaps more surprisingly, we've seen many of the biggest games in the world have",
-      "url": "https://x.com/i/web/status/2110083127741702241",
-      "created_at": "2026-10-14T03:25:53.000Z"
-    },
-    {
-      "id": "x-2110196356887531947",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Let's debunk this once and for all: No, the Yeshu of the Talmud is not who you think he is. A thread. https://t.co/NrUsnyGhFm",
-      "url": "https://x.com/i/web/status/1946003989922713975",
-      "created_at": "2026-10-14T02:29:51.000Z"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
