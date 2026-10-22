@@ -1,7 +1,102 @@
 {
-  "generated_at": "2026-10-21T17:17:52.938Z",
-  "x_since_id": "2112567916331978832",
+  "generated_at": "2026-10-22T04:57:28.189Z",
+  "x_since_id": "2113025835372527974",
   "items": [
+    {
+      "id": "github-17872770311",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-22T01:03:19.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6481 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6481#issuecomment-6330121929"
+    },
+    {
+      "id": "x-2113025835372527974",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Post",
+      "action": "Posted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "\"It is harder to write a commentary on Leviticus when you're well.\" 😄 https://t.co/chxhgRUsCb",
+      "url": "https://x.com/judahgabriel/status/2113025835372527974",
+      "created_at": "2026-10-21T21:53:11.000Z",
+      "media": []
+    },
+    {
+      "id": "github-17855953418",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-21T20:45:00.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #4552 in",
+      "title": "[BUG] PWABuilder first finds ServiceWorker, then after tests says there's none and no offline support",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/4552"
+    },
+    {
+      "id": "github-17855953849",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-21T20:44:58.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Merged pull request #6484 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6484"
+    },
+    {
+      "id": "github-17847659000",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-21T19:06:09.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6475 in",
+      "title": "[BUG] Unable to enqueue website analysis task (500 Internal Server Error)",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6475#issuecomment-6324223325"
+    },
+    {
+      "id": "x-2112968551858630768",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "https://t.co/OqCFkZzXeo",
+      "url": "https://x.com/i/web/status/2112707569789575401",
+      "created_at": "2026-10-21T18:05:34.000Z",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVHYVugWwAAW3kK.jpg",
+          "alt_text": "",
+          "width": 1536,
+          "height": 1024,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": "github-24734943104",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-21T17:55:27.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/fix-service-worker-detection in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/aaa14092e0a0...5cd0966a4feb"
+    },
     {
       "id": "github-17815010821",
       "source": "github",
@@ -258,18 +353,6 @@
       "url": "https://github.com/pwa-builder/pwabuilder-manifest-creator/compare/bc373933be4d...8d3f71ccf5bc"
     },
     {
-      "id": "github-17646480169",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T21:06:11.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #6484 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6484"
-    },
-    {
       "id": "x-2112288619511845144",
       "source": "x",
       "kind": "x",
@@ -368,18 +451,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6482#issuecomment-6274668414"
     },
     {
-      "id": "github-17644162766",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:45:06.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6479 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6479#issuecomment-6274648054"
-    },
-    {
       "id": "github-17651790262",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -390,42 +461,6 @@
       "action": "Commented on issue #6476 in",
       "title": "[BUG]",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6476#issuecomment-6274631456"
-    },
-    {
-      "id": "github-17644100717",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:43:45.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6475 in",
-      "title": "[BUG] Unable to enqueue website analysis task (500 Internal Server Error)",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6475#issuecomment-6274622470"
-    },
-    {
-      "id": "github-17648192792",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:42:00.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6468 in",
-      "title": "Package successfully generated, but download fails",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6468#issuecomment-6274590054"
-    },
-    {
-      "id": "github-17643900858",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:39:51.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6468 in",
-      "title": "Package successfully generated, but download fails",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6468#issuecomment-6274545026"
     },
     {
       "id": "github-17651584869",
@@ -796,30 +831,6 @@
       "title": "Computer scientist Sara Hooker on underestimating difficulty: https://t.co/c3gEHrEuI2",
       "url": "https://x.com/i/web/status/2110066649932197948",
       "created_at": "2026-10-15T00:14:40.000Z"
-    },
-    {
-      "id": "x-2110521241501413500",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Husk tried AI therapy and now I need a real doctor bc I can’t breathe 😭 https://t.co/89EK4LlfBP",
-      "url": "https://x.com/i/web/status/2110171978795749641",
-      "created_at": "2026-10-15T00:00:50.000Z"
-    },
-    {
-      "id": "x-2110509319246827531",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "With new technology, researchers can now read a lost codex of Paul’s letters. Spoiler: Their discoveries could revolutionize how we read the New Testament. #codexh https://t.co/zm6sutPt0l",
-      "url": "https://x.com/i/web/status/2110408263330062555",
-      "created_at": "2026-10-14T23:13:27.000Z"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
