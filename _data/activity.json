@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-10-23T17:14:06.068Z",
+  "generated_at": "2026-10-24T04:43:58.982Z",
   "x_since_id": "2113499637298692428",
   "items": [
+    {
+      "id": "github-18038127773",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-23T18:11:59.000Z",
+      "kind": "review",
+      "label": "Review",
+      "action": "Reviewed pull request #6491 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6491#pullrequestreview-5629658286"
+    },
+    {
+      "id": "github-18056364078",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-23T16:03:34.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6476 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6476#issuecomment-6369164100"
+    },
     {
       "id": "x-2113499637298692428",
       "source": "x",
@@ -438,18 +462,6 @@
       "media": []
     },
     {
-      "id": "github-17651301244",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T21:00:59.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #4552 in",
-      "title": "[BUG] PWABuilder first finds ServiceWorker, then after tests says there's none and no offline support",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/4552#issuecomment-6277224807"
-    },
-    {
       "id": "x-2112283109035278356",
       "source": "x",
       "kind": "x",
@@ -545,18 +557,6 @@
       "action": "Commented on issue #6466 in",
       "title": "Error creating Google Play package",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6466#issuecomment-6274452838"
-    },
-    {
-      "id": "github-17651260959",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:32:34.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6462 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6462#issuecomment-6274400731"
     },
     {
       "id": "github-17656935110",
