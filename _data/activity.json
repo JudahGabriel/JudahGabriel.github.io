@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-10-24T04:43:58.982Z",
-  "x_since_id": "2113499637298692428",
+  "generated_at": "2026-10-25T16:29:50.244Z",
+  "x_since_id": "2114361831070540117",
   "items": [
+    {
+      "id": "x-2114361831070540117",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Post",
+      "action": "Posted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Amusing watching the far left antisemites battle the far right antisemites. https://t.co/urI1Ks3yRF",
+      "url": "https://x.com/judahgabriel/status/2114361831070540117",
+      "created_at": "2026-10-25T14:21:58.000Z",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVe41nJboAAcn9L.jpg",
+          "alt_text": "",
+          "width": 828,
+          "height": 939,
+          "video": false
+        }
+      ]
+    },
     {
       "id": "github-18038127773",
       "source": "github",
@@ -831,18 +853,6 @@
       "url": "https://x.com/i/web/status/2110814260083462425",
       "created_at": "2026-10-15T20:59:47.000Z",
       "media": []
-    },
-    {
-      "id": "x-2110807847324000430",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Cavemen Issues Dire Warning That The Wheel Is Going To Eliminate Countless Jobs https://t.co/17TIKATQIo",
-      "url": "https://x.com/i/web/status/2110422884984517119",
-      "created_at": "2026-10-15T18:59:42.000Z"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
