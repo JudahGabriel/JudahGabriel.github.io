@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-25T16:29:50.244Z",
+  "generated_at": "2026-10-26T18:43:16.804Z",
   "x_since_id": "2114361831070540117",
   "items": [
+    {
+      "id": "github-18241490219",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-26T14:20:56.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6493 in",
+      "title": "Google Play packaging fails with apksigner: entry does not contain a key",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6493#issuecomment-6418361794"
+    },
+    {
+      "id": "github-18240327833",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-26T14:06:37.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6494 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6494#issuecomment-6418024426"
+    },
+    {
+      "id": "github-18240327738",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-26T14:06:37.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6495 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6495#issuecomment-6418024412"
+    },
+    {
+      "id": "github-18240190670",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-26T14:06:37.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6496 in",
+      "title": "[DOCS]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6496#issuecomment-6418024304"
+    },
+    {
+      "id": "github-18240171493",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-10-26T14:06:36.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6492 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6492#issuecomment-6418024214"
+    },
     {
       "id": "x-2114361831070540117",
       "source": "x",
@@ -375,30 +435,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/compare/9c3032a6d152...2235068fed83"
     },
     {
-      "id": "github-17654856673",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T22:53:28.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #6485 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6485"
-    },
-    {
-      "id": "github-17654274378",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T22:41:38.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on pull request #6404 in",
-      "title": "Add Nimbus, an offline-first notebook PWA demo for PWABuilder",
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6404#issuecomment-6278959306"
-    },
-    {
       "id": "github-24685797792",
       "source": "github",
       "context": "pwa-builder/nimbus",
@@ -543,30 +579,6 @@
       "url": "https://x.com/i/web/status/2112085555638907013",
       "created_at": "2026-10-19T19:12:29.000Z",
       "media": []
-    },
-    {
-      "id": "github-17651790262",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:44:13.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6476 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6476#issuecomment-6274631456"
-    },
-    {
-      "id": "github-17651584869",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-19T18:39:12.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6470 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6470#issuecomment-6274530731"
     },
     {
       "id": "github-17657506917",
@@ -877,18 +889,6 @@
       "title": "Some thoughts on Benjamin Netanyahu and Israel's Upcoming Election by Aaron Hecht",
       "url": "https://blog.judahgabriel.com/2026/10/some-thoughts-on-benjamin-netanyahu-and.html",
       "created_at": "2026-10-03T18:37:58.000Z"
-    },
-    {
-      "id": "github-17654032564",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-10-01T01:38:03.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Closed pull request #6404 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6404"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/09/some-thoughts-on-why-nations-rage-by.html",
