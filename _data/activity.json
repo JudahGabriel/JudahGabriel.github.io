@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-26T18:43:16.804Z",
-  "x_since_id": "2114361831070540117",
+  "generated_at": "2026-10-27T05:13:01.435Z",
+  "x_since_id": "2114941247626625463",
   "items": [
+    {
+      "id": "x-2114941247626625463",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Microsoft’s new Voluntary Exit Offer Eligible employees at level 70 and below (i.e., roughly below VP) on participating teams in the US, Canada, the UK, and India are being offered financial support and career-planning resources if they choose to leave voluntarily. Reports put the pool at about 60,000 people, roughly a quarter of the company. Not every organization is included; it varies by business priorities, customer commitments, and workforce needs. Microsoft is clear that this is a voluntary program, not a buyout, and not a replacement for layoffs (which remain an option depending on conditions). This comes after roughly 15,000 cuts in 2025 as the company continues heavy AI/infrastructure spending. https://t.co/2XEedEyu37",
+      "url": "https://x.com/i/web/status/2114775549264748857",
+      "created_at": "2026-10-27T04:44:21.000Z",
+      "media": []
+    },
     {
       "id": "github-18241490219",
       "source": "github",
@@ -852,19 +865,6 @@
           "video": false
         }
       ]
-    },
-    {
-      "id": "x-2110838066655141973",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "The proper response to goodbye is obviously, \"And with thy spirit.\" https://t.co/xw1LnfxneI",
-      "url": "https://x.com/i/web/status/2110814260083462425",
-      "created_at": "2026-10-15T20:59:47.000Z",
-      "media": []
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
