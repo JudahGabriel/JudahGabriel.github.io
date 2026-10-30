@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-27T18:04:13.610Z",
+  "generated_at": "2026-10-30T18:03:46.838Z",
   "x_since_id": "2115084164970275012",
   "items": [
+    {
+      "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-after-israels-latest.html",
+      "source": "kineti",
+      "kind": "blog",
+      "label": "Blog post",
+      "action": "New post on",
+      "context": "Kineti L'Tziyon",
+      "context_url": "https://blog.judahgabriel.com/",
+      "title": "Some Thoughts After Israel's Latest Election by Aaron Hecht",
+      "url": "https://blog.judahgabriel.com/2026/10/some-thoughts-after-israels-latest.html",
+      "created_at": "2026-10-30T11:17:13.000Z"
+    },
     {
       "id": "x-2115084164970275012",
       "source": "x",
@@ -925,18 +937,6 @@
       "title": "Some Thoughts on the Flood, the Tower of Babel, AI, and Genetic Engineering by Aaron Hecht",
       "url": "https://blog.judahgabriel.com/2026/09/some-thoughts-on-flood-tower-of-babel.html",
       "created_at": "2026-09-19T22:40:56.000Z"
-    },
-    {
-      "id": "kineti-https://blog.judahgabriel.com/2026/09/some-thoughts-for-back-to-school-week.html",
-      "source": "kineti",
-      "kind": "blog",
-      "label": "Blog post",
-      "action": "New post on",
-      "context": "Kineti L'Tziyon",
-      "context_url": "https://blog.judahgabriel.com/",
-      "title": "Some Thoughts for Back to School Week by Aaron Hecht",
-      "url": "https://blog.judahgabriel.com/2026/09/some-thoughts-for-back-to-school-week.html",
-      "created_at": "2026-09-02T17:53:22.000Z"
     },
     {
       "id": "debuggerdotbreak-https://debuggerdotbreak.judahgabriel.com/2026/04/14/the-end-of-apps-and-websites/",
