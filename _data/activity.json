@@ -1,7 +1,140 @@
 {
-  "generated_at": "2026-11-11T06:36:31.473Z",
-  "x_since_id": "2120252370038964314",
+  "generated_at": "2026-11-11T19:40:30.123Z",
+  "x_since_id": "2120591381324558737",
   "items": [
+    {
+      "id": "kineti-https://blog.judahgabriel.com/2026/11/many-christian-beliefs-about-jesus.html",
+      "source": "kineti",
+      "kind": "blog",
+      "label": "Blog post",
+      "action": "New post on",
+      "context": "Kineti L'Tziyon",
+      "context_url": "https://blog.judahgabriel.com/",
+      "title": "Many Christian beliefs about Jesus aren't Jewishly heretical",
+      "url": "https://blog.judahgabriel.com/2026/11/many-christian-beliefs-about-jesus.html",
+      "created_at": "2026-11-11T19:37:42.000Z"
+    },
+    {
+      "id": "github-19817352061",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-11T19:29:08.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Opened pull request #6544 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6544"
+    },
+    {
+      "id": "x-2120591381324558737",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Post",
+      "action": "Posted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "\"Mashiach will descend from the clouds\" \"Mashiach will be an entirely new created being instead of a human being\" \"Mashiach will be an angelic creature\" \"Mashiach predates the creation of the world\", \"Mashiach can possibly come from the dead\" \"[These positions] are all sourced in our Torah, presented as possibilities, and obviously not all of them will come to fruition. Still, no one who believes in them can be considered a heretic, G-d forbid.\"",
+      "url": "https://x.com/judahgabriel/status/2120591381324558737",
+      "created_at": "2026-11-11T18:55:58.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2120585282009575578",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "legendary hacker news comments that aged like milk https://t.co/2rwGOPAMJQ",
+      "url": "https://x.com/i/web/status/2120539550124507256",
+      "created_at": "2026-11-11T18:31:44.000Z",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWiEZ1qaUAAX8kD.jpg",
+          "alt_text": "",
+          "width": 1199,
+          "height": 317,
+          "video": false
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWiEZ1xaoAA-kWG.jpg",
+          "alt_text": "",
+          "width": 1170,
+          "height": 865,
+          "video": false
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWiEZ1pboAAqto1.jpg",
+          "alt_text": "",
+          "width": 1200,
+          "height": 935,
+          "video": false
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWiEZ1sa0AAFGb6.jpg",
+          "alt_text": "",
+          "width": 1200,
+          "height": 280,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": "x-2120573621915779276",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "I watch this every single time it comes to my timeline! The simplicity and humility at which she communicates her experience and convictions is so endearing! The gospel truly transforms us! https://t.co/k5DjGV4cbH",
+      "url": "https://x.com/i/web/status/2120222892109549774",
+      "created_at": "2026-11-11T17:45:24.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2120566595747791357",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "English Wikipedia’s WWII article never mentions “antisemitism” by name. When an editor tried to add it, the edit was reverted, and others objected to it. It’s one of the most-viewed pages. How much can readers understand the war without the ideology that drove Nazi mass murder? https://t.co/h6zP6zoELU",
+      "url": "https://x.com/i/web/status/2120462350444597654",
+      "created_at": "2026-11-11T17:17:29.000Z",
+      "media": []
+    },
+    {
+      "id": "github-19804550766",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-11T17:11:20.000Z",
+      "kind": "review",
+      "label": "Review",
+      "action": "Reviewed pull request #6537 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6537#pullrequestreview-5862566359"
+    },
+    {
+      "id": "github-19787459871",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-11T14:03:36.000Z",
+      "kind": "review",
+      "label": "Review",
+      "action": "Reviewed pull request #6543 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6543#pullrequestreview-5859955692"
+    },
     {
       "id": "github-19727490453",
       "source": "github",
@@ -98,6 +231,18 @@
       "action": "Merged pull request #6529 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6529"
+    },
+    {
+      "id": "github-26866958502",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-10T20:14:48.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/f2ccf7e92bfb...950950fa69a5"
     },
     {
       "id": "github-19707357108",
@@ -256,42 +401,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6538#issuecomment-6755387900"
     },
     {
-      "id": "github-19613546960",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T00:26:36.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on pull request #6510 in",
-      "title": "iOS: expose display name, display mode, status bar text, appearance and splash icon size",
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6510#issuecomment-6755278077"
-    },
-    {
-      "id": "github-19613464637",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T00:25:32.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6507 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6507#pullrequestreview-5834822577"
-    },
-    {
-      "id": "github-19612918680",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T00:18:08.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6460 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6460#pullrequestreview-5834762342"
-    },
-    {
       "id": "github-26773011691",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -314,18 +423,6 @@
       "action": "Pushed commits to dependabot/nuget/apps/pwabuilder/SixLabors.ImageSharp-4.1.2 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/compare/d2c3799ee521...8b6c48657c79"
-    },
-    {
-      "id": "github-19612381640",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T00:10:59.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6523 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6523"
     },
     {
       "id": "github-19619112855",
@@ -821,76 +918,6 @@
       "media": []
     },
     {
-      "id": "x-2111223363221999693",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Of course the flying Tesla Roadster is a gimmick but that sort of misses the point, the tech flex behind it isn't. Tesla's bulk business is about advanced technology from EV to self drive, but decided to create the most ridiculous manual drive supercar. Supercars are a gimmick,almost by definition, based on how wild can you make them. The gimmick that can make the car literally fly, briefly, can make it corner like no other supercar and accelerate, literally like a dragster on a test track. It's got nothing to do with flying continuously, but having a car that will outperform every Lambo, Ferrari or McLaren with technology that they cannot replicate because it requires experience from space launches and computation that they don't have now nor will in future. So Porsche, Bugatti, Aston Martin just became legacy prestige brands, like Rolex, Richard Mille or Patek Philippe. These cars celebrate the bygone age and the baroque, physical complexity of the internal combustion engine just as ",
-      "url": "https://x.com/i/web/status/2111150902442668206",
-      "created_at": "2026-10-16T22:30:49.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2111019357904175348",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "ngl \"let there be light\" sounds like a prompt",
-      "url": "https://x.com/i/web/status/2110802174334968085",
-      "created_at": "2026-10-16T09:00:10.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2111018405394571511",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Turns out the future does have flying cars https://t.co/6fexPp6SXI",
-      "url": "https://x.com/i/web/status/2110913107094606330",
-      "created_at": "2026-10-16T08:56:23.000Z",
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2110913027490934784/img/Ya3Xqn9K4XmCb-h5.jpg",
-          "alt_text": "",
-          "width": 1920,
-          "height": 1080,
-          "video": true
-        }
-      ]
-    },
-    {
-      "id": "x-2110903609978413470",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Complete Tesla Roadster FLYING demo. INSANE!!! https://t.co/Q6KQaXRX5g",
-      "url": "https://x.com/i/web/status/2110901384421966220",
-      "created_at": "2026-10-16T01:20:13.000Z",
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2110901181916803072/img/unwtSgiA8eb1RXbn.jpg",
-          "alt_text": "",
-          "width": 1398,
-          "height": 782,
-          "video": true
-        }
-      ]
-    },
-    {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
       "source": "kineti",
       "kind": "blog",
@@ -913,18 +940,6 @@
       "title": "Some thoughts on Benjamin Netanyahu and Israel's Upcoming Election by Aaron Hecht",
       "url": "https://blog.judahgabriel.com/2026/10/some-thoughts-on-benjamin-netanyahu-and.html",
       "created_at": "2026-10-03T18:37:58.000Z"
-    },
-    {
-      "id": "kineti-https://blog.judahgabriel.com/2026/09/some-thoughts-on-why-nations-rage-by.html",
-      "source": "kineti",
-      "kind": "blog",
-      "label": "Blog post",
-      "action": "New post on",
-      "context": "Kineti L'Tziyon",
-      "context_url": "https://blog.judahgabriel.com/",
-      "title": "Some Thoughts on Why the Nations Rage by Aaron Hecht",
-      "url": "https://blog.judahgabriel.com/2026/09/some-thoughts-on-why-nations-rage-by.html",
-      "created_at": "2026-09-25T21:25:41.000Z"
     },
     {
       "id": "debuggerdotbreak-https://debuggerdotbreak.judahgabriel.com/2026/09/24/the-end-of-programming-by-hand/",
