@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-11-11T19:40:30.123Z",
+  "generated_at": "2026-11-12T07:20:01.408Z",
   "x_since_id": "2120591381324558737",
   "items": [
+    {
+      "id": "github-19848809756",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-12T02:02:29.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6494 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6494#issuecomment-6812190680"
+    },
+    {
+      "id": "github-19821238602",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-11T20:07:50.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Merged pull request #6541 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6541"
+    },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/11/many-christian-beliefs-about-jesus.html",
       "source": "kineti",
@@ -86,6 +110,18 @@
       ]
     },
     {
+      "id": "github-19818528301",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-11T18:11:00.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on pull request #6507 in",
+      "title": "Agent readiness checks: page summary, structured data, llms.txt and the agent card",
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6507#issuecomment-6803619161"
+    },
+    {
       "id": "x-2120573621915779276",
       "source": "x",
       "kind": "x",
@@ -134,6 +170,18 @@
       "action": "Reviewed pull request #6543 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6543#pullrequestreview-5859955692"
+    },
+    {
+      "id": "github-26899215972",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-11T00:05:42.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/admin-sign-in-persistence in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/d504f6b9f5f2...695afdcdec59"
     },
     {
       "id": "github-19727490453",
@@ -209,6 +257,18 @@
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6539#issuecomment-6778369847"
     },
     {
+      "id": "github-26914055758",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-10T20:21:50.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/950950fa69a5...6297cb17ff96"
+    },
+    {
       "id": "github-19708084081",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -231,6 +291,18 @@
       "action": "Merged pull request #6529 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6529"
+    },
+    {
+      "id": "github-26892509339",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-10T20:15:44.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/windows-staging-startup in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/686ba7b6cce3...1ae05cb442b3"
     },
     {
       "id": "github-26866958502",
@@ -353,16 +425,16 @@
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6485"
     },
     {
-      "id": "github-19687792594",
+      "id": "github-26871103138",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T17:04:21.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6540 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6540#issuecomment-6773776964"
+      "created_at": "2026-11-10T17:32:03.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/bump-bubblewrap-core in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/9657c1b2caf7...ee4105b047fa"
     },
     {
       "id": "github-19708335824",
@@ -377,30 +449,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6539"
     },
     {
-      "id": "github-19620770367",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T02:08:22.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #6539 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6539"
-    },
-    {
-      "id": "github-19614034366",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T00:33:17.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on pull request #6538 in",
-      "title": "Remove fragmented screen-reader stops in Android documentation lists",
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6538#issuecomment-6755387900"
-    },
-    {
       "id": "github-26773011691",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -413,64 +461,16 @@
       "url": "https://github.com/pwa-builder/PWABuilder/compare/99a118d78986...a432df2ac4f8"
     },
     {
-      "id": "github-26746175005",
+      "id": "github-26876735848",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T00:11:18.000Z",
+      "created_at": "2026-11-09T22:48:13.000Z",
       "kind": "push",
       "label": "Pushed",
-      "action": "Pushed commits to dependabot/nuget/apps/pwabuilder/SixLabors.ImageSharp-4.1.2 in",
+      "action": "Pushed commits to user/judahgabriel/nimbus-homepage-demo in",
       "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/d2c3799ee521...8b6c48657c79"
-    },
-    {
-      "id": "github-19619112855",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T00:06:40.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6526 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6526#issuecomment-6754926551"
-    },
-    {
-      "id": "github-19618627529",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-09T23:51:01.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6521 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6521#issuecomment-6754659491"
-    },
-    {
-      "id": "github-19618108165",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-09T23:37:25.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6512 in",
-      "title": "Bump @bubblewrap/core to 1.27.0 (androidbrowserhelper 2.7.4) to clear Play Console Android Vitals recommendations",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6512#issuecomment-6754433858"
-    },
-    {
-      "id": "github-19616006933",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-09T22:35:57.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6492 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6492#issuecomment-6753318152"
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/2235068fed83...dc9f6cd5c4fb"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/11/some-thoughts-on-americas-mid-term.html",
