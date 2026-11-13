@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-11-12T20:00:30.083Z",
+  "generated_at": "2026-11-13T06:53:09.843Z",
   "x_since_id": "2120591381324558737",
   "items": [
+    {
+      "id": "github-19956987888",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-12T23:32:13.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on pull request #6510 in",
+      "title": "iOS: expose display name, display mode, status bar text, appearance and splash icon size",
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6510#issuecomment-6839061443"
+    },
+    {
+      "id": "github-19955936103",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-12T23:18:42.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Merged pull request #6542 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6542"
+    },
     {
       "id": "github-19933649824",
       "source": "github",
@@ -411,30 +435,6 @@
       "action": "Reopened issue #6261 in",
       "title": "[BUG] Packaging Error: Android package does not target SDK 36+ for Google Play Store",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6261"
-    },
-    {
-      "id": "github-19706451520",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T20:06:04.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Reopened issue #6532 in",
-      "title": "[BUG] Failed to fetch",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6532"
-    },
-    {
-      "id": "github-19706171053",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T20:03:21.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #6542 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6542"
     },
     {
       "id": "github-26871103138",
