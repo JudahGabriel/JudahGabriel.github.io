@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-11-15T06:42:32.136Z",
+  "generated_at": "2026-11-15T18:55:50.938Z",
   "x_since_id": "2121774346012443013",
   "items": [
+    {
+      "id": "github-20191470973",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-15T17:03:04.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6555 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6555#issuecomment-6898079304"
+    },
+    {
+      "id": "github-20191470880",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-15T17:03:04.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6553 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6553#issuecomment-6898079285"
+    },
     {
       "id": "x-2121774346012443013",
       "source": "x",
@@ -472,18 +496,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6501"
     },
     {
-      "id": "github-19725805445",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T23:40:35.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6531 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6531"
-    },
-    {
       "id": "x-2120252370038964314",
       "source": "x",
       "kind": "x",
@@ -495,18 +507,6 @@
       "url": "https://x.com/i/web/status/2120250242679615594",
       "created_at": "2026-11-10T20:28:52.000Z",
       "media": []
-    },
-    {
-      "id": "github-19711487127",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T20:24:22.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on pull request #6539 in",
-      "title": "Bump Bubblewrap core to 1.27.0",
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6539#issuecomment-6778369847"
     },
     {
       "id": "github-26914055758",
