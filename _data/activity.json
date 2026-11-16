@@ -1,7 +1,234 @@
 {
-  "generated_at": "2026-11-16T06:41:07.647Z",
-  "x_since_id": "2121774346012443013",
+  "generated_at": "2026-11-16T22:13:52.824Z",
+  "x_since_id": "2122451008412655844",
   "items": [
+    {
+      "id": "x-2122451008412655844",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "A couple of weeks ago, we had the pleasure of welcoming @JeremyDBoreing to Shirat David for Kabbalat Shabbat. I was deeply moved by his reflections in this interview. Jeremy - thank you for joining us. Thank you for sharing this. https://t.co/YyWwSZ8r5c",
+      "url": "https://x.com/i/web/status/2122404338702422284",
+      "created_at": "2026-11-16T22:05:28.000Z",
+      "media": []
+    },
+    {
+      "id": "github-20313137546",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T20:31:22.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Opened pull request #6560 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6560"
+    },
+    {
+      "id": "github-20309706756",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:56:33.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6552 in",
+      "title": "[RELEASE][PWABUILDER|VSCODE|STARTER|ETC] X.X",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6552"
+    },
+    {
+      "id": "github-20309679272",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:56:17.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6551 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6551"
+    },
+    {
+      "id": "github-20309679605",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:56:16.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6551 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6551#issuecomment-6927501397"
+    },
+    {
+      "id": "github-20309633673",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:55:50.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6558 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6558"
+    },
+    {
+      "id": "github-20309635069",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:55:49.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6558 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6558#issuecomment-6927489486"
+    },
+    {
+      "id": "github-20309610303",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:55:34.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6557 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6557#issuecomment-6927482634"
+    },
+    {
+      "id": "github-20309607432",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:55:34.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6557 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6557"
+    },
+    {
+      "id": "github-20309544583",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:54:56.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6555 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6555"
+    },
+    {
+      "id": "github-20309546129",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:54:55.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6555 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6555#issuecomment-6927465216"
+    },
+    {
+      "id": "github-20309498702",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:54:28.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6553 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6553"
+    },
+    {
+      "id": "github-20317763554",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:54:27.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6553 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6553#issuecomment-6927452056"
+    },
+    {
+      "id": "github-20309456547",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:54:00.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6559 in",
+      "title": "com.juggerpakistan.no1official",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6559#issuecomment-6927439628"
+    },
+    {
+      "id": "github-20309454220",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T19:54:00.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6559 in",
+      "title": "com.juggerpakistan.no1official",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6559"
+    },
+    {
+      "id": "github-20303225449",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T18:51:14.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6548 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6548#issuecomment-6925850758"
+    },
+    {
+      "id": "github-20303224102",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T18:51:14.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6548 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6548"
+    },
+    {
+      "id": "x-2122239777672192136",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Post",
+      "action": "Posted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Gotta love it https://t.co/nu7ZOva3sX",
+      "url": "https://x.com/judahgabriel/status/2122239777672192136",
+      "created_at": "2026-11-16T08:06:06.000Z",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXO10_RboAEAX62.png",
+          "alt_text": "",
+          "width": 594,
+          "height": 393,
+          "video": false
+        }
+      ]
+    },
     {
       "id": "github-20200782588",
       "source": "github",
@@ -255,18 +482,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6510#issuecomment-6839061443"
     },
     {
-      "id": "github-19955936103",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-12T23:18:42.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Merged pull request #6542 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6542"
-    },
-    {
       "id": "github-27174932079",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -279,78 +494,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/compare/35c8cdd3c760...d8ee8107a4d9"
     },
     {
-      "id": "github-19933649824",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-12T19:19:06.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #6549 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6549"
-    },
-    {
-      "id": "github-19919650249",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-12T17:06:10.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6547 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6547#issuecomment-6830386818"
-    },
-    {
-      "id": "github-19935156676",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-12T17:06:09.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6548 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6548#issuecomment-6830386702"
-    },
-    {
-      "id": "github-19907612490",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-12T15:14:21.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6545 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6545#pullrequestreview-5876883245"
-    },
-    {
-      "id": "github-19848809756",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-12T02:02:29.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6494 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6494#issuecomment-6812190680"
-    },
-    {
-      "id": "github-19821238602",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-11T20:07:50.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Merged pull request #6541 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6541"
-    },
-    {
       "id": "kineti-https://blog.judahgabriel.com/2026/11/many-christian-beliefs-about-jesus.html",
       "source": "kineti",
       "kind": "blog",
@@ -361,18 +504,6 @@
       "title": "Many Christian beliefs about Jesus aren't Jewishly heretical",
       "url": "https://blog.judahgabriel.com/2026/11/many-christian-beliefs-about-jesus.html",
       "created_at": "2026-11-11T19:37:42.000Z"
-    },
-    {
-      "id": "github-19817352061",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-11T19:29:08.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Opened pull request #6544 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6544"
     },
     {
       "id": "x-2120591381324558737",
@@ -434,18 +565,6 @@
       ]
     },
     {
-      "id": "github-19818528301",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-11T18:11:00.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on pull request #6507 in",
-      "title": "Agent readiness checks: page summary, structured data, llms.txt and the agent card",
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6507#issuecomment-6803619161"
-    },
-    {
       "id": "x-2120573621915779276",
       "source": "x",
       "kind": "x",
@@ -472,30 +591,6 @@
       "media": []
     },
     {
-      "id": "github-19804550766",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-11T17:11:20.000Z",
-      "kind": "review",
-      "label": "Review",
-      "action": "Reviewed pull request #6537 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6537#pullrequestreview-5862566359"
-    },
-    {
-      "id": "github-26899215972",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-11T00:05:42.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to user/judahgabriel/admin-sign-in-persistence in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/d504f6b9f5f2...695afdcdec59"
-    },
-    {
       "id": "x-2120252370038964314",
       "source": "x",
       "kind": "x",
@@ -507,66 +602,6 @@
       "url": "https://x.com/i/web/status/2120250242679615594",
       "created_at": "2026-11-10T20:28:52.000Z",
       "media": []
-    },
-    {
-      "id": "github-26914055758",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T20:21:50.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to main in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/950950fa69a5...6297cb17ff96"
-    },
-    {
-      "id": "github-26892509339",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T20:15:44.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to user/judahgabriel/windows-staging-startup in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/686ba7b6cce3...1ae05cb442b3"
-    },
-    {
-      "id": "github-26866958502",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T20:14:48.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to main in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/f2ccf7e92bfb...950950fa69a5"
-    },
-    {
-      "id": "github-26871103138",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-10T17:32:03.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to user/judahgabriel/bump-bubblewrap-core in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/9657c1b2caf7...ee4105b047fa"
-    },
-    {
-      "id": "github-26876735848",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-09T22:48:13.000Z",
-      "kind": "push",
-      "label": "Pushed",
-      "action": "Pushed commits to user/judahgabriel/nimbus-homepage-demo in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/compare/2235068fed83...dc9f6cd5c4fb"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/11/some-thoughts-on-americas-mid-term.html",
@@ -891,32 +926,6 @@
           "video": true
         }
       ]
-    },
-    {
-      "id": "x-2112260617306575045",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "In fairness, there's a lot of overlap between the Book of Job and LinkedIn posts after layoffs. https://t.co/PP2MTS92N6",
-      "url": "https://x.com/i/web/status/2112085555638907013",
-      "created_at": "2026-10-19T19:12:29.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2112236463945580623",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Post",
-      "action": "Posted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Seems there's a real market for TVs that are not bloated. I have a nice TV that is slow as molasses; navigating menus makes you question \"did I press the wrong button on my remote, or is the TV just really slow?\" I'm gonna use this to debloat my TV. https://t.co/0v3ilQEdx5",
-      "url": "https://x.com/judahgabriel/status/2112236463945580623",
-      "created_at": "2026-10-19T17:36:31.000Z",
-      "media": []
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
