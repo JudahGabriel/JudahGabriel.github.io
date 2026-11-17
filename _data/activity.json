@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-11-16T22:13:52.824Z",
-  "x_since_id": "2122451008412655844",
+  "generated_at": "2026-11-17T08:01:41.289Z",
+  "x_since_id": "2122477606541066320",
   "items": [
+    {
+      "id": "github-27418867530",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-17T00:12:13.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to copilot/fix-narrator-focus-issue in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/a7128da8c944...14b303d649f4"
+    },
+    {
+      "id": "x-2122477606541066320",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "It's funny how many people seem to be fishing for someone else to tell them, \"You're screwed. Woe is you. Give up.\" when that is never true. There are always other options. https://t.co/CVZ0GNE8Bn",
+      "url": "https://x.com/i/web/status/2122467559433801748",
+      "created_at": "2026-11-16T23:51:09.000Z",
+      "media": []
+    },
+    {
+      "id": "github-20328180816",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T23:16:12.000Z",
+      "kind": "pull-request",
+      "label": "Pull request",
+      "action": "Merged pull request #6544 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6544"
+    },
+    {
+      "id": "github-27406247319",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T22:15:13.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/container-vulnerability-fixes in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/ddcde6fa6018...3b365e309900"
+    },
     {
       "id": "x-2122451008412655844",
       "source": "x",
@@ -16,6 +65,18 @@
       "media": []
     },
     {
+      "id": "github-27402389380",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T21:40:33.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to dependabot/nuget/apps/pwabuilder/SixLabors.ImageSharp-4.1.2 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/1f50ba75d219...b4865b7ee8e6"
+    },
+    {
       "id": "github-20313137546",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -26,6 +87,30 @@
       "action": "Opened pull request #6560 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6560"
+    },
+    {
+      "id": "github-27400627113",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-16T20:19:01.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to dependabot/nuget/apps/pwabuilder/SixLabors.ImageSharp-4.1.2 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/8b6c48657c79...1f50ba75d219"
+    },
+    {
+      "id": "github-27398300100",
+      "source": "github",
+      "context": "hamdibenjarrar/PWABuilder",
+      "context_url": "https://github.com/hamdibenjarrar/PWABuilder",
+      "created_at": "2026-11-16T20:00:25.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to ios-shell-options in",
+      "title": null,
+      "url": "https://github.com/hamdibenjarrar/PWABuilder/compare/8c0db1518fd7...e3127c053b1c"
     },
     {
       "id": "github-20309706756",
@@ -346,18 +431,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6551#issuecomment-6881129825"
     },
     {
-      "id": "github-20072489705",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-13T23:32:40.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #5201 in",
-      "title": "[VSCODE] Next.js generated manifest not found automatically",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/5201#issuecomment-6867601633"
-    },
-    {
       "id": "github-27303218325",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -368,18 +441,6 @@
       "action": "Pushed commits to user/judahgabriel/container-vulnerability-fixes in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/compare/872e6cc45254...ddcde6fa6018"
-    },
-    {
-      "id": "github-20067848154",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-13T22:28:58.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on pull request #6549 in",
-      "title": "Add deployment guide for PWABuilder services",
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6549#issuecomment-6866505738"
     },
     {
       "id": "x-2121317545051656534",
@@ -408,30 +469,6 @@
       "media": []
     },
     {
-      "id": "github-20046187394",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-13T18:17:39.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6547 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6547"
-    },
-    {
-      "id": "github-20046190236",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-13T18:17:38.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6547 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6547#issuecomment-6861270286"
-    },
-    {
       "id": "x-2121304450929496350",
       "source": "x",
       "kind": "x",
@@ -456,30 +493,6 @@
       "url": "https://x.com/i/web/status/2120994700286971974",
       "created_at": "2026-11-13T18:02:24.000Z",
       "media": []
-    },
-    {
-      "id": "github-20067846698",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-13T07:13:32.000Z",
-      "kind": "pull-request",
-      "label": "Pull request",
-      "action": "Closed pull request #6549 in",
-      "title": null,
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6549"
-    },
-    {
-      "id": "github-19956987888",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-12T23:32:13.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on pull request #6510 in",
-      "title": "iOS: expose display name, display mode, status bar text, appearance and splash icon size",
-      "url": "https://github.com/pwa-builder/PWABuilder/pull/6510#issuecomment-6839061443"
     },
     {
       "id": "github-27174932079",
@@ -904,28 +917,6 @@
       "url": "https://x.com/judahgabriel/status/2112282963543298268",
       "created_at": "2026-10-19T20:41:17.000Z",
       "media": []
-    },
-    {
-      "id": "x-2112269039926170032",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Israel was right about this all along https://t.co/DfmohH0w5j",
-      "url": "https://x.com/i/web/status/2112256379599884401",
-      "created_at": "2026-10-19T19:45:57.000Z",
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2112256311190765568/img/aeV7bjOkOFUL-dnf.jpg",
-          "alt_text": "",
-          "width": 720,
-          "height": 1280,
-          "video": true
-        }
-      ]
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
