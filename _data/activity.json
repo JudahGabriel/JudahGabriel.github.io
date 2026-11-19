@@ -1,7 +1,199 @@
 {
-  "generated_at": "2026-11-18T20:38:21.981Z",
+  "generated_at": "2026-11-19T07:33:23.701Z",
   "x_since_id": "2122477606541066320",
   "items": [
+    {
+      "id": "github-20593176611",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T02:07:55.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6576 in",
+      "title": "[BUG] unable to analyze your web status 500",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6576#issuecomment-6997491672"
+    },
+    {
+      "id": "github-20591489426",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T02:07:55.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6563 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6563#issuecomment-6997491631"
+    },
+    {
+      "id": "github-20610279642",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T02:07:52.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6567 in",
+      "title": "[Bug] Google Play platform not working - PWABuilder Cloud APK API returning 503 Service Unavailable during preflight request",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-6997490860"
+    },
+    {
+      "id": "github-20583798100",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T00:24:57.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6575 in",
+      "title": "https://share.gemini.google/obwpEvNhmBXP",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6575"
+    },
+    {
+      "id": "github-20573888298",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:24:33.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6574 in",
+      "title": "Lili Salgados: Cardápio",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6574"
+    },
+    {
+      "id": "github-20573871896",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:24:22.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6573 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6573"
+    },
+    {
+      "id": "github-20573843816",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:24:04.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6572 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6572"
+    },
+    {
+      "id": "github-20573837947",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:24:01.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6571 in",
+      "title": "Suggestion",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6571"
+    },
+    {
+      "id": "github-20573822527",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:23:51.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6570 in",
+      "title": "[DOCS]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6570"
+    },
+    {
+      "id": "github-20573802241",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:23:38.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6569 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6569"
+    },
+    {
+      "id": "github-20573786077",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:23:27.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6568 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6568"
+    },
+    {
+      "id": "github-20573757255",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:23:09.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6556 in",
+      "title": "Google Play platform not working",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6556"
+    },
+    {
+      "id": "github-20583818174",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:22:46.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6567 in",
+      "title": "[Bug] Google Play platform not working - PWABuilder Cloud APK API returning 503 Service Unavailable during preflight request",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-6993360846"
+    },
+    {
+      "id": "github-20573662812",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:22:05.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6566 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6566"
+    },
+    {
+      "id": "github-20573638845",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:21:49.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6565 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6565"
+    },
+    {
+      "id": "github-20573579910",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T22:21:08.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6562 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6562"
+    },
     {
       "id": "github-20561347696",
       "source": "github",
@@ -11,7 +203,7 @@
       "kind": "comment",
       "label": "Comment",
       "action": "Commented on issue #6567 in",
-      "title": "[Bug] PWABuilder Cloud APK API returning 503 Service Unavailable during preflight request",
+      "title": "[Bug] Google Play platform not working - PWABuilder Cloud APK API returning 503 Service Unavailable during preflight request",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-6990330870"
     },
     {
@@ -23,7 +215,7 @@
       "kind": "comment",
       "label": "Comment",
       "action": "Commented on issue #6567 in",
-      "title": "[Bug] PWABuilder Cloud APK API returning 503 Service Unavailable during preflight request",
+      "title": "[Bug] Google Play platform not working - PWABuilder Cloud APK API returning 503 Service Unavailable during preflight request",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-6990127907"
     },
     {
@@ -39,6 +231,30 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6569#issuecomment-6990125564"
     },
     {
+      "id": "github-20569320871",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T20:05:56.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6568 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6568#issuecomment-6990122864"
+    },
+    {
+      "id": "github-20569315610",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T20:05:52.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6566 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6566#issuecomment-6990120806"
+    },
+    {
       "id": "github-20560496410",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -49,6 +265,18 @@
       "action": "Commented on issue #6565 in",
       "title": "[BUG]",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6565#issuecomment-6990118608"
+    },
+    {
+      "id": "github-20569303729",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-18T20:05:43.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6570 in",
+      "title": "[DOCS]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6570#issuecomment-6990116322"
     },
     {
       "id": "github-20542828188",
@@ -87,6 +315,18 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6562#issuecomment-6985679533"
     },
     {
+      "id": "github-27603777696",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-17T22:28:29.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to dependabot/nuget/apps/pwabuilder/SixLabors.ImageSharp-4.1.2 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/b4865b7ee8e6...f3cdeaf00fe6"
+    },
+    {
       "id": "github-20446390795",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -99,16 +339,16 @@
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6560"
     },
     {
-      "id": "github-20444661814",
+      "id": "github-27595171669",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-17T20:07:20.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #5400 in",
-      "title": "[BUG] Wrong key I need to sign my .aab with a specific keystore",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/5400#issuecomment-6959518890"
+      "created_at": "2026-11-17T21:19:58.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to user/judahgabriel/package-download-diagnosis in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/f5a4e5381b69...a524574e9b0c"
     },
     {
       "id": "github-20455401029",
