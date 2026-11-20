@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-11-20T07:25:18.365Z",
+  "generated_at": "2026-11-20T20:28:02.071Z",
   "x_since_id": "2122477606541066320",
   "items": [
+    {
+      "id": "github-20802047264",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-20T20:24:56.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6567 in",
+      "title": "[Bug] PWABuilder not working - PWABuilder analysis and Google Play returning 503 Service Unavailable during preflight request",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-7049800151"
+    },
+    {
+      "id": "github-20802044106",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-20T20:24:56.000Z",
+      "kind": "issue",
+      "label": "Issue",
+      "action": "Closed issue #6567 in",
+      "title": "[Bug] PWABuilder not working - PWABuilder analysis and Google Play returning 503 Service Unavailable during preflight request",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6567"
+    },
+    {
+      "id": "github-20801476371",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-20T20:17:52.000Z",
+      "kind": "review",
+      "label": "Review",
+      "action": "Reviewed pull request #6622 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6622#pullrequestreview-5998791662"
+    },
+    {
+      "id": "github-20794846683",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-20T18:58:30.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6567 in",
+      "title": "[Bug] PWABuilder not working - PWABuilder analysis and Google Play returning 503 Service Unavailable during preflight request",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-7048062754"
+    },
+    {
+      "id": "github-20789794065",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-20T18:00:25.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6567 in",
+      "title": "[Bug] PWABuilder not working - PWABuilder analysis and Google Play returning 503 Service Unavailable during preflight request",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-7046855318"
+    },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/11/some-thoughts-on-prepping-for-disaster.html",
       "source": "kineti",
@@ -219,18 +279,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6596#issuecomment-7018115863"
     },
     {
-      "id": "github-20685474157",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:40.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6597 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6597#issuecomment-7018114608"
-    },
-    {
       "id": "github-20715360834",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -241,18 +289,6 @@
       "action": "Commented on issue #6598 in",
       "title": "ARTS AI ASISTANS",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6598#issuecomment-7018113294"
-    },
-    {
-      "id": "github-20685464044",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:30.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6600 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6600#issuecomment-7018110882"
     },
     {
       "id": "github-20715351423",
@@ -301,42 +337,6 @@
       "action": "Commented on issue #6609 in",
       "title": "Worth",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6609#issuecomment-7018097831"
-    },
-    {
-      "id": "github-20685423917",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:23:53.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6610 in",
-      "title": "[BUG] worth",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6610#issuecomment-7018096489"
-    },
-    {
-      "id": "github-20685409435",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:23:39.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6614 in",
-      "title": "hh",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6614#issuecomment-7018091078"
-    },
-    {
-      "id": "github-20685399738",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:23:30.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6617 in",
-      "title": "[BUG] Internal Code Error 500",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6617#issuecomment-7018087358"
     },
     {
       "id": "github-20715283113",
