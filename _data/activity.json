@@ -1,18 +1,54 @@
 {
-  "generated_at": "2026-11-19T20:43:59.144Z",
+  "generated_at": "2026-11-20T07:25:18.365Z",
   "x_since_id": "2122477606541066320",
   "items": [
     {
-      "id": "github-20675384986",
+      "id": "kineti-https://blog.judahgabriel.com/2026/11/some-thoughts-on-prepping-for-disaster.html",
+      "source": "kineti",
+      "kind": "blog",
+      "label": "Blog post",
+      "action": "New post on",
+      "context": "Kineti L'Tziyon",
+      "context_url": "https://blog.judahgabriel.com/",
+      "title": "Some Thoughts on Prepping for Disaster by Aaron Hecht",
+      "url": "https://blog.judahgabriel.com/2026/11/some-thoughts-on-prepping-for-disaster.html",
+      "created_at": "2026-11-19T22:09:37.000Z"
+    },
+    {
+      "id": "github-20715416425",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:26:03.000Z",
+      "created_at": "2026-11-19T18:26:06.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6570 in",
-      "title": "[DOCS]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6570#issuecomment-7018148168"
+      "action": "Commented on issue #6568 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6568#issuecomment-7018149446"
+    },
+    {
+      "id": "github-20715415851",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T18:26:05.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6569 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6569#issuecomment-7018148853"
+    },
+    {
+      "id": "github-20715413654",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T18:26:00.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6571 in",
+      "title": "Suggestion",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6571#issuecomment-7018147008"
     },
     {
       "id": "github-20685549159",
@@ -27,28 +63,40 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6572#issuecomment-7018145652"
     },
     {
-      "id": "github-20676828392",
+      "id": "github-20715400427",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:25:53.000Z",
+      "created_at": "2026-11-19T18:25:34.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6573 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6573#issuecomment-7018144414"
+      "action": "Commented on issue #6575 in",
+      "title": "https://share.gemini.google/obwpEvNhmBXP",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6575#issuecomment-7018136969"
     },
     {
-      "id": "github-20676804110",
+      "id": "github-20715393558",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:25:23.000Z",
+      "created_at": "2026-11-19T18:25:29.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6579 in",
+      "action": "Commented on issue #6577 in",
       "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6579#issuecomment-7018132649"
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6577#issuecomment-7018135087"
+    },
+    {
+      "id": "github-20715392279",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T18:25:27.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6578 in",
+      "title": "六合",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6578#issuecomment-7018134144"
     },
     {
       "id": "github-20685516292",
@@ -63,28 +111,28 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6580#issuecomment-7018131561"
     },
     {
-      "id": "github-20676798025",
+      "id": "github-20715387791",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:25:15.000Z",
+      "created_at": "2026-11-19T18:25:18.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6582 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6582#issuecomment-7018129431"
+      "action": "Commented on issue #6581 in",
+      "title": "[BUG] lode nhi ho rha",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6581#issuecomment-7018130542"
     },
     {
-      "id": "github-20676791294",
+      "id": "github-20715382199",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:25:12.000Z",
+      "created_at": "2026-11-19T18:25:08.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6583 in",
-      "title": "[RELEASE][PWABUILDER|VSCODE|STARTER|ETC] X.X",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6583#issuecomment-7018128183"
+      "action": "Commented on issue #6587 in",
+      "title": "[BUG] https://claude.ai/artifact/FsVEP7FzF1fzjsQuBtA565",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6587#issuecomment-7018126008"
     },
     {
       "id": "github-20685500412",
@@ -97,6 +145,30 @@
       "action": "Commented on issue #6588 in",
       "title": "[BUG] Failing to read my web app URL and generating package",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6588#issuecomment-7018125019"
+    },
+    {
+      "id": "github-20715379750",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T18:25:03.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6589 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6589#issuecomment-7018123947"
+    },
+    {
+      "id": "github-20715378474",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T18:25:00.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6590 in",
+      "title": "[BUG]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6590#issuecomment-7018123039"
     },
     {
       "id": "github-20685493475",
@@ -123,28 +195,28 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6592#issuecomment-7018121033"
     },
     {
-      "id": "github-20676773865",
+      "id": "github-20715373988",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:49.000Z",
+      "created_at": "2026-11-19T18:24:53.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6594 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6594#issuecomment-7018118499"
+      "action": "Commented on issue #6593 in",
+      "title": "[BUG] non mi fa creare dice manifesto mancante",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6593#issuecomment-7018119942"
     },
     {
-      "id": "github-20676771664",
+      "id": "github-20715365044",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:46.000Z",
+      "created_at": "2026-11-19T18:24:43.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6595 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6595#issuecomment-7018117088"
+      "action": "Commented on issue #6596 in",
+      "title": "[BUG] [BUG] Status 500 Internal Server Error on app-report.api when analyzing PWA",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6596#issuecomment-7018115863"
     },
     {
       "id": "github-20685474157",
@@ -159,6 +231,18 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6597#issuecomment-7018114608"
     },
     {
+      "id": "github-20715360834",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-19T18:24:37.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6598 in",
+      "title": "ARTS AI ASISTANS",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6598#issuecomment-7018113294"
+    },
+    {
       "id": "github-20685464044",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -171,52 +255,52 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6600#issuecomment-7018110882"
     },
     {
-      "id": "github-20676748401",
+      "id": "github-20715351423",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:18.000Z",
+      "created_at": "2026-11-19T18:24:25.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6604 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6604#issuecomment-7018106211"
+      "action": "Commented on issue #6602 in",
+      "title": "[RELEASE][PWABUILDER|VSCODE|STARTER|ETC] X.X",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6602#issuecomment-7018108765"
     },
     {
-      "id": "github-20676740059",
+      "id": "github-20715348200",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:11.000Z",
+      "created_at": "2026-11-19T18:24:21.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6605 in",
-      "title": "[BUG] rahama voice",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6605#issuecomment-7018103531"
+      "action": "Commented on issue #6603 in",
+      "title": "[BUG] https://stitch.google.com/projects/18274590554591827840",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6603#issuecomment-7018107468"
     },
     {
-      "id": "github-20676736186",
+      "id": "github-20715341956",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:05.000Z",
+      "created_at": "2026-11-19T18:24:08.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6607 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6607#issuecomment-7018101221"
+      "action": "Commented on issue #6606 in",
+      "title": "[BUG] Status 500 Internal Server Error: Unable to enqueue analysis job for site",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6606#issuecomment-7018102292"
     },
     {
-      "id": "github-20676733996",
+      "id": "github-20715336023",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:24:02.000Z",
+      "created_at": "2026-11-19T18:23:56.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6608 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6608#issuecomment-7018099767"
+      "action": "Commented on issue #6609 in",
+      "title": "Worth",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6609#issuecomment-7018097831"
     },
     {
       "id": "github-20685423917",
@@ -229,30 +313,6 @@
       "action": "Commented on issue #6610 in",
       "title": "[BUG] worth",
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6610#issuecomment-7018096489"
-    },
-    {
-      "id": "github-20676724170",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:23:49.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6611 in",
-      "title": "[BUG] UNABLE TO ANALYSE YOUR WEBSITE",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6611#issuecomment-7018094993"
-    },
-    {
-      "id": "github-20676720989",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:23:46.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6612 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6612#issuecomment-7018093711"
     },
     {
       "id": "github-20685409435",
@@ -279,88 +339,40 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6617#issuecomment-7018087358"
     },
     {
-      "id": "github-20676507417",
+      "id": "github-20715283113",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:19:03.000Z",
+      "created_at": "2026-11-19T18:22:34.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6584 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6584#issuecomment-7017983899"
+      "action": "Commented on issue #6618 in",
+      "title": "[BUG] apk",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6618#issuecomment-7018064736"
     },
     {
-      "id": "github-20685058350",
+      "id": "github-20715088141",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:18:32.000Z",
+      "created_at": "2026-11-19T18:17:06.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6585 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6585#issuecomment-7017972070"
+      "action": "Commented on issue #6587 in",
+      "title": "[BUG] https://claude.ai/artifact/FsVEP7FzF1fzjsQuBtA565",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6587#issuecomment-7017938859"
     },
     {
-      "id": "github-20676479971",
+      "id": "github-20714961134",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
       "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:17:54.000Z",
+      "created_at": "2026-11-19T18:14:03.000Z",
       "kind": "comment",
       "label": "Comment",
-      "action": "Commented on issue #6586 in",
-      "title": "Unable to analyze your web app",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6586#issuecomment-7017957550"
-    },
-    {
-      "id": "github-20684935415",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:16:49.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6588 in",
-      "title": "[BUG] Failing to read my web app URL and generating package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6588#issuecomment-7017932023"
-    },
-    {
-      "id": "github-20684816567",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:15:16.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6582 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6582#issuecomment-7017895057"
-    },
-    {
-      "id": "github-20676391274",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:14:42.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6581 in",
-      "title": "[BUG] lode nhi ho rha",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6581#issuecomment-7017881738"
-    },
-    {
-      "id": "github-20684686051",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-19T18:13:32.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6579 in",
-      "title": "[BUG]",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6579#issuecomment-7017854709"
+      "action": "Commented on issue #6580 in",
+      "title": "[BUG] Unable to enqueue analysis job - Status 500",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6580#issuecomment-7017866595"
     },
     {
       "id": "x-2122477606541066320",
@@ -929,18 +941,6 @@
       "title": "Some Thoughts on Man's Best Friend by Aaron Hecht",
       "url": "https://blog.judahgabriel.com/2026/10/some-thoughts-on-mans-best-friend-by.html",
       "created_at": "2026-10-13T11:28:56.000Z"
-    },
-    {
-      "id": "kineti-https://blog.judahgabriel.com/2026/10/some-thoughts-on-benjamin-netanyahu-and.html",
-      "source": "kineti",
-      "kind": "blog",
-      "label": "Blog post",
-      "action": "New post on",
-      "context": "Kineti L'Tziyon",
-      "context_url": "https://blog.judahgabriel.com/",
-      "title": "Some thoughts on Benjamin Netanyahu and Israel's Upcoming Election by Aaron Hecht",
-      "url": "https://blog.judahgabriel.com/2026/10/some-thoughts-on-benjamin-netanyahu-and.html",
-      "created_at": "2026-10-03T18:37:58.000Z"
     },
     {
       "id": "debuggerdotbreak-https://debuggerdotbreak.judahgabriel.com/2026/09/24/the-end-of-programming-by-hand/",
