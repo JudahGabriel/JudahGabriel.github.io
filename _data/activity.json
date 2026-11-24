@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-11-23T23:59:00.100Z",
-  "x_since_id": "2124928586444591376",
+  "generated_at": "2026-11-24T10:00:35.811Z",
+  "x_since_id": "2125119987484643376",
   "items": [
+    {
+      "id": "x-2125119987484643376",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "l’m gonna quote tweet this again because the world needs another browser, and Ladybird is a damn good answer. https://t.co/PodQYC4Xkg",
+      "url": "https://x.com/i/web/status/2125034128852791705",
+      "created_at": "2026-11-24T06:51:02.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2125112905712746720",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "I don't think they're conscious either, but reading Gemini Neon's code comments is an unreal experience. https://t.co/50ZQ2yRmBF https://t.co/qwIC5bzo5d",
+      "url": "https://x.com/i/web/status/2124974823306609076",
+      "created_at": "2026-11-24T06:22:54.000Z",
+      "media": []
+    },
     {
       "id": "x-2124928586444591376",
       "source": "x",
@@ -902,32 +928,6 @@
       "title": "they told us in math class in the early 2000s that we wouldn’t have a calculator with us always and 20 years later my friends argue whether or not my pocket phone contains a conscious machine god",
       "url": "https://x.com/i/web/status/2112229111615934913",
       "created_at": "2026-10-19T22:14:53.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2112288619511845144",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "I love Job for many reasons, but mainly because it does a very clever jujitsu move on you as a reader. You start out thinking you've seen behind the curtain -- the scene in heaven w/ God & Satan making bets about Job. So then after Job's trials, as his four friends come visit him to give their theories of why Job is in the predicament he's in, you've got your own little theory based on the opening scene, right? You're essentially the fifth friend who has their own read of the situation. Then God comes in at the end and is like, \"all your theories are wrong. None of you were there at The Beginning, and none of you know enough of the real backstory to really understand what's happening here. None of you can actually tame the chaos monster and organize all the things into a coherent whole. Only I can do that.\" You, the reader, think God is calling out Job and maybe his four friends. But He's calling you out, too. You, the reader, are in the same boat as Job and his four friends. You think",
-      "url": "https://x.com/i/web/status/2112234321268588718",
-      "created_at": "2026-10-19T21:03:45.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2112283109035278356",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "You can't fight something with nothing. De-Christianized Europe has nothing. To paraphrase T.S. Eliot on the eve of World War II, for Europe's current moment: \"If you will not have God, and he is a jealous God, then you should prepare to pay your respects to Allah and Lenin.\"",
-      "url": "https://x.com/i/web/status/2112226123547550003",
-      "created_at": "2026-10-19T20:41:52.000Z",
       "media": []
     },
     {
