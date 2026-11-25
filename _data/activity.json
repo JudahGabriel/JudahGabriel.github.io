@@ -1,7 +1,104 @@
 {
-  "generated_at": "2026-11-24T22:31:57.929Z",
-  "x_since_id": "2125336801095401526",
+  "generated_at": "2026-11-25T08:44:59.348Z",
+  "x_since_id": "2125499304492347600",
   "items": [
+    {
+      "id": "x-2125499304492347600",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Respectfully, your post departs so significantly from reality on a matter of public concern that I feel compelled to respond... 1. In challenging circumstances such as this, you want the nation's best on the field. That is precisely why you call on NASA, putting our airborne and space-based sensors and some of the brightest scientific minds in the country to work. 2. Even if it's hyperbole, it is irresponsible to characterize this as a 'Chernobyl event' when there is no reactor and there are no fission products. This is a controlled detonation of aging explosive material and is being handled in the most responsible way possible. 3. And we did go to the Moon. To suggest otherwise is an insult to the hundreds of thousands of talented Americans who achieved the near impossible on July 20, 1969, and then did it five more times, because we are NASA and we could. It remains one of America's crowning achievements, acknowledged even by our greatest adversary at the time. It is disheartening th",
+      "url": "https://x.com/i/web/status/2125421987938066551",
+      "created_at": "2026-11-25T07:58:18.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2125491360518361342",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "I HAVE MY JOB BACK! #HuangMan ⚔️😎 https://t.co/ko2xWxrbWj",
+      "url": "https://x.com/i/web/status/2125317161128206392",
+      "created_at": "2026-11-25T07:26:44.000Z",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125316815706357761/img/aDgcCNFsvyBTLkJw.jpg",
+          "alt_text": "",
+          "width": 960,
+          "height": 720,
+          "video": true
+        }
+      ]
+    },
+    {
+      "id": "github-21207403301",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-25T02:02:49.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6646 in",
+      "title": "[VSCODE]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6646#issuecomment-7150254299"
+    },
+    {
+      "id": "github-21207402487",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-25T02:02:49.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6647 in",
+      "title": "[VSCODE]",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6647#issuecomment-7150254295"
+    },
+    {
+      "id": "github-21199864551",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-25T00:25:07.000Z",
+      "kind": "review",
+      "label": "Review",
+      "action": "Reviewed pull request #6625 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6625#pullrequestreview-6049636587"
+    },
+    {
+      "id": "x-2125374813472698424",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Antisemitism is an all-consuming fire that engulfs your brain and prevents you from thinking about anything else. https://t.co/QSJWhjhgl6",
+      "url": "https://x.com/i/web/status/2125019787801825712",
+      "created_at": "2026-11-24T23:43:37.000Z",
+      "media": []
+    },
+    {
+      "id": "x-2125361286980726921",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "I'm a deeply religious Jew who wears a yarmulka, keeps kosher and prays 3 times a day towards Jerusalem. I live amongst other Orthodox Jews in NY and I work in a Hasidic Jewish community. And yet, every single day, @cenkuygur thinks more about Jews and Israel than I do. https://t.co/6w6eF1ScSO",
+      "url": "https://x.com/i/web/status/2125038601608020157",
+      "created_at": "2026-11-24T22:49:52.000Z",
+      "media": []
+    },
     {
       "id": "x-2125336801095401526",
       "source": "x",
@@ -64,6 +161,18 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6627#issuecomment-7143084638"
     },
     {
+      "id": "github-28195766672",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-24T15:33:00.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/bff8a9105ddb...6a60fa190396"
+    },
+    {
       "id": "github-21147362781",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -86,6 +195,30 @@
       "action": "Reviewed pull request #6644 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6644#pullrequestreview-6042281812"
+    },
+    {
+      "id": "github-28191900216",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-24T15:32:14.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/70ddfbecc819...bff8a9105ddb"
+    },
+    {
+      "id": "github-28196361618",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-24T15:31:26.000Z",
+      "kind": "push",
+      "label": "Pushed",
+      "action": "Pushed commits to main in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/compare/f2a7b7fd62a5...70ddfbecc819"
     },
     {
       "id": "github-21147208520",
@@ -341,78 +474,6 @@
       "action": "Reviewed pull request #6446 in",
       "title": null,
       "url": "https://github.com/pwa-builder/PWABuilder/pull/6446#pullrequestreview-6005750055"
-    },
-    {
-      "id": "github-20830168512",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-21T02:02:11.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6576 in",
-      "title": "[BUG] unable to analyze your web status 500",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6576#issuecomment-7055581635"
-    },
-    {
-      "id": "github-20825187594",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-21T02:02:10.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6621 in",
-      "title": "[BUG] https://github.com/pwa-builder/PWABuilder/issues/6567",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6621#issuecomment-7055581612"
-    },
-    {
-      "id": "github-20808946389",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-20T21:50:58.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6619 in",
-      "title": "MY orders",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6619"
-    },
-    {
-      "id": "github-20808916662",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-20T21:50:35.000Z",
-      "kind": "issue",
-      "label": "Issue",
-      "action": "Closed issue #6620 in",
-      "title": "[RELEASE][PWABUILDER|VSCODE|STARTER|ETC] X.X",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6620"
-    },
-    {
-      "id": "github-20808898557",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-20T21:50:20.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6621 in",
-      "title": "[BUG] https://github.com/pwa-builder/PWABuilder/issues/6567",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6621#issuecomment-7051459589"
-    },
-    {
-      "id": "github-20802047264",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-20T20:24:56.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6567 in",
-      "title": "[Bug] PWABuilder not working - PWABuilder analysis and Google Play returning 503 Service Unavailable during preflight request",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6567#issuecomment-7049800151"
     },
     {
       "id": "kineti-https://blog.judahgabriel.com/2026/11/some-thoughts-on-prepping-for-disaster.html",
@@ -841,92 +902,6 @@
           "width": 1536,
           "height": 1024,
           "video": false
-        }
-      ]
-    },
-    {
-      "id": "x-2112567916331978832",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Post",
-      "action": "Posted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Spotted a Tesla Cybercab and a Google Waymo here in Seattle. I'm guessing we'll see driverless cabs roll out to the public here soon. 😎 https://t.co/MZmrasLP3L",
-      "url": "https://x.com/judahgabriel/status/2112567916331978832",
-      "created_at": "2026-10-20T15:33:35.000Z",
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVFZOaBbcAAD5JQ.jpg",
-          "alt_text": "",
-          "width": 1536,
-          "height": 2048,
-          "video": false
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVFZOaHaUAA_vvJ.jpg",
-          "alt_text": "",
-          "width": 2048,
-          "height": 1536,
-          "video": false
-        },
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2112567804264435712/img/lpeuFxczskbJClfd.jpg",
-          "alt_text": "",
-          "width": 1080,
-          "height": 1920,
-          "video": true
-        }
-      ]
-    },
-    {
-      "id": "x-2112557561962713221",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "Introducing tsrs: a Rust port of the TypeScript compiler 🦀 We are not forking TypeScript! ◆ In close collaborating with the TypeScript team ◆ Up to 8x faster than TS 7.0 & ~70% less memory ◆ Runs in WASM, so it works in your browser & on Workers ◆ Soon part of the Oxc toolchain npx tsrs https://t.co/qmmxF3YnQy",
-      "url": "https://x.com/i/web/status/2112531443591020965",
-      "created_at": "2026-10-20T14:52:26.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2112307822361018730",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "You could tell because Mr. Sandman is a Jewish name. https://t.co/Ljgq2PqxMN",
-      "url": "https://x.com/i/web/status/2112294136418127944",
-      "created_at": "2026-10-19T22:20:04.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2112306787269726212",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "You cannot be happy if your primary identity is that of a victim... even if you really are one. https://t.co/UFvAVh5HPv",
-      "url": "https://x.com/i/web/status/2112202914911670283",
-      "created_at": "2026-10-19T22:15:57.000Z",
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2112202577144381440/img/C_q-UhX3gSDbNEfy.jpg",
-          "alt_text": "",
-          "width": 1920,
-          "height": 1080,
-          "video": true
         }
       ]
     },
