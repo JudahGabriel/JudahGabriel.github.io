@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-11-27T08:43:47.420Z",
-  "x_since_id": "2126192497617702915",
+  "generated_at": "2026-11-27T21:24:40.828Z",
+  "x_since_id": "2126241456935592130",
   "items": [
+    {
+      "id": "github-21526347937",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-27T20:04:55.000Z",
+      "kind": "comment",
+      "label": "Comment",
+      "action": "Commented on issue #6662 in",
+      "title": "Error creating Google Play package",
+      "url": "https://github.com/pwa-builder/PWABuilder/issues/6662#issuecomment-7227155887"
+    },
+    {
+      "id": "github-21496960923",
+      "source": "github",
+      "context": "pwa-builder/PWABuilder",
+      "context_url": "https://github.com/pwa-builder/PWABuilder",
+      "created_at": "2026-11-27T14:03:20.000Z",
+      "kind": "review",
+      "label": "Review",
+      "action": "Reviewed pull request #6657 in",
+      "title": null,
+      "url": "https://github.com/pwa-builder/PWABuilder/pull/6657#pullrequestreview-6089298763"
+    },
+    {
+      "id": "x-2126241456935592130",
+      "source": "x",
+      "kind": "x",
+      "label": "X · Repost",
+      "action": "Reposted on",
+      "context": "X",
+      "context_url": "https://x.com/judahgabriel",
+      "title": "Rabbi Pinchas Polonsky, a prominent Religious Zionist thinker, responding to a Christian antisemite: “You are consumed by a satanic hatred of Jesus. You profess him to be God, but deep down you hate him because he imposed moral restraints on you, whereas you want to kill, rob and rape. And since you cannot admit this hatred even to yourself, you repress it in the Freudian sense, and it manifests itself as hatred of the Jews — the people among whom Jesus was born. The entire iconostasis in your churches consists of Jews. You extol them in words but hate them in your heart. And so, upon leaving church, as a form of psychological compensation, you want to annihilate all living Jews. Until you are cured of this Satanism, your culture will continue to disintegrate.” (Translated from Russian.)",
+      "url": "https://x.com/i/web/status/2126034591131603336",
+      "created_at": "2026-11-27T09:07:21.000Z",
+      "media": []
+    },
     {
       "id": "x-2126192497617702915",
       "source": "x",
@@ -472,30 +509,6 @@
       "url": "https://github.com/pwa-builder/PWABuilder/issues/6633#issuecomment-7143085796"
     },
     {
-      "id": "github-21176466818",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-24T20:07:56.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6628 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6628#issuecomment-7143085159"
-    },
-    {
-      "id": "github-21176463460",
-      "source": "github",
-      "context": "pwa-builder/PWABuilder",
-      "context_url": "https://github.com/pwa-builder/PWABuilder",
-      "created_at": "2026-11-24T20:07:55.000Z",
-      "kind": "comment",
-      "label": "Comment",
-      "action": "Commented on issue #6627 in",
-      "title": "Error creating Google Play package",
-      "url": "https://github.com/pwa-builder/PWABuilder/issues/6627#issuecomment-7143084638"
-    },
-    {
       "id": "github-28195766672",
       "source": "github",
       "context": "pwa-builder/PWABuilder",
@@ -857,19 +870,6 @@
       "title": "English Wikipedia’s WWII article never mentions “antisemitism” by name. When an editor tried to add it, the edit was reverted, and others objected to it. It’s one of the most-viewed pages. How much can readers understand the war without the ideology that drove Nazi mass murder? https://t.co/h6zP6zoELU",
       "url": "https://x.com/i/web/status/2120462350444597654",
       "created_at": "2026-11-11T17:17:29.000Z",
-      "media": []
-    },
-    {
-      "id": "x-2120252370038964314",
-      "source": "x",
-      "kind": "x",
-      "label": "X · Repost",
-      "action": "Reposted on",
-      "context": "X",
-      "context_url": "https://x.com/judahgabriel",
-      "title": "The #Vikings have acquired QB Kirk Cousins in a trade with the Raiders. The completion of this trade is pending Cousins passing a physical. 📰: https://t.co/VefqxaBaC4 https://t.co/pbx5QhIvbH",
-      "url": "https://x.com/i/web/status/2120250242679615594",
-      "created_at": "2026-11-10T20:28:52.000Z",
       "media": []
     },
     {
